@@ -53,7 +53,7 @@ msgstr ""
 
 #: ../../../contributing/documentation/diataxis.md:12
 msgid "Reference"
-msgstr ""
+msgstr "參考手冊"
 
 #: ../../../contributing/documentation/diataxis.md:14
 msgid "Reference material should"
@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../contributing/documentation/diataxis.md:21
 msgid "Tutorials"
-msgstr ""
+msgstr "教學"
 
 #: ../../../contributing/documentation/diataxis.md:23
 msgid ""
@@ -99,7 +99,7 @@ msgstr ""
 
 #: ../../../contributing/documentation/diataxis.md:28
 msgid "Guides"
-msgstr ""
+msgstr "指南"
 
 #: ../../../contributing/documentation/diataxis.md:30
 msgid ""
@@ -117,7 +117,7 @@ msgstr ""
 
 #: ../../../contributing/documentation/diataxis.md:35
 msgid "Concepts"
-msgstr ""
+msgstr "概念"
 
 #: ../../../contributing/documentation/diataxis.md:37
 msgid ""

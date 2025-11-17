@@ -481,7 +481,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/nixos-configuration-on-vm.md:300
 msgid "References"
-msgstr ""
+msgstr "參考"
 
 #: ../../../tutorials/nixos/nixos-configuration-on-vm.md:302
 msgid ""
@@ -547,7 +547,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/nixos-configuration-on-vm.md:313
 msgid "Next steps"
-msgstr ""
+msgstr "下一步"
 
 #: ../../../tutorials/nixos/nixos-configuration-on-vm.md:315
 msgid "[](module-system-deep-dive)"

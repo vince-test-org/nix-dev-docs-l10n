@@ -50,7 +50,7 @@ msgstr ""
 
 #: ../../../index.md:19
 msgid "Tutorials"
-msgstr ""
+msgstr "教學"
 
 #: ../../../index.md:24
 msgid "Series of lessons to get started"
@@ -58,7 +58,7 @@ msgstr ""
 
 #: ../../../index.md:27
 msgid "Guides"
-msgstr ""
+msgstr "指南"
 
 #: ../../../index.md:32
 msgid "Guides to getting things done"
@@ -66,7 +66,7 @@ msgstr ""
 
 #: ../../../index.md:37
 msgid "Reference"
-msgstr ""
+msgstr "參考手冊"
 
 #: ../../../index.md:42
 msgid "Collections of detailed technical descriptions"
@@ -74,7 +74,7 @@ msgstr ""
 
 #: ../../../index.md:45
 msgid "Concepts"
-msgstr ""
+msgstr "概念"
 
 #: ../../../index.md:50
 msgid "Explanations of history and ideas in the Nix ecosystem"
@@ -140,7 +140,7 @@ msgstr ""
 
 #: ../../../index.md:68
 msgid "Remote deployments."
-msgstr ""
+msgstr "遠端部署。"
 
 #: ../../../index.md:69
 msgid "Atomic upgrades and rollbacks."
@@ -177,11 +177,11 @@ msgstr ""
 
 #: ../../../index.md:83
 msgid "Test engineer"
-msgstr ""
+msgstr "測試工程師"
 
 #: ../../../index.md:84
 msgid "Embedded systems developer"
-msgstr ""
+msgstr "嵌入式系統開發者"
 
 #: ../../../index.md:85
 msgid "DevOps engineer"

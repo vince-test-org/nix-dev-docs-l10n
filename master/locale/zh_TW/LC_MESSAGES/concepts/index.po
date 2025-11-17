@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../concepts/index.md:2
 msgid "Concepts"
-msgstr ""
+msgstr "概念"
 
 #: ../../../concepts/index.md:4
 msgid ""

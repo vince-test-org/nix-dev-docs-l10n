@@ -45,7 +45,7 @@ msgstr ""
 
 #: ../../../tutorials/packaging-existing-software.md:16
 msgid "Introduction"
-msgstr ""
+msgstr "簡介"
 
 #: ../../../tutorials/packaging-existing-software.md:18
 msgid ""
@@ -1096,7 +1096,7 @@ msgstr ""
 
 #: ../../../tutorials/packaging-existing-software.md:648
 msgid "References"
-msgstr ""
+msgstr "參考"
 
 #: ../../../tutorials/packaging-existing-software.md:650
 msgid ""
@@ -1106,7 +1106,7 @@ msgstr ""
 
 #: ../../../tutorials/packaging-existing-software.md:652
 msgid "Next steps"
-msgstr ""
+msgstr "下一步"
 
 #: ../../../tutorials/packaging-existing-software.md:654
 msgid "[](callpackage-tutorial)"

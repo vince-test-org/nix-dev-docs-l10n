@@ -167,7 +167,7 @@ msgstr ""
 
 #: ../../../contributing/documentation/style-guide.md:67
 msgid "For example:"
-msgstr ""
+msgstr "例如："
 
 #: ../../../contributing/documentation/style-guide.md:69
 msgid ""
@@ -233,7 +233,7 @@ msgstr ""
 #: ../../../contributing/documentation/style-guide.md:102
 #: ../../../contributing/documentation/style-guide.md:159
 msgid "Example"
-msgstr ""
+msgstr "範例"
 
 #: ../../../contributing/documentation/style-guide.md:105
 msgid ""

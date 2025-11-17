@@ -39,7 +39,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/provisioning-remote-machines.md:16
 msgid "Introduction"
-msgstr ""
+msgstr "简介"
 
 #: ../../../tutorials/nixos/provisioning-remote-machines.md:18
 msgid ""

@@ -39,7 +39,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/provisioning-remote-machines.md:16
 msgid "Introduction"
-msgstr ""
+msgstr "簡介"
 
 #: ../../../tutorials/nixos/provisioning-remote-machines.md:18
 msgid ""
@@ -489,7 +489,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/provisioning-remote-machines.md:304
 msgid "Next steps"
-msgstr ""
+msgstr "下一步"
 
 #: ../../../tutorials/nixos/provisioning-remote-machines.md:306
 msgid "[](binary-cache-setup)"
@@ -501,7 +501,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/provisioning-remote-machines.md:309
 msgid "References"
-msgstr ""
+msgstr "參考"
 
 #: ../../../tutorials/nixos/provisioning-remote-machines.md:311
 msgid "[`nixos-anywhere` project page][`nixos-anywhere`]"

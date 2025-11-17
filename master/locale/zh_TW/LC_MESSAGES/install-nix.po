@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../install-nix.md:3
 msgid "Install Nix"
-msgstr ""
+msgstr "安裝 Nix"
 
 #: ../../../install-nix.md:4
 msgid "Requirements:"
@@ -34,7 +34,7 @@ msgstr ""
 
 #: ../../../install-nix.md:0
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #: ../../../install-nix.md:12 ../../../install-nix.md:24
 msgid "Install Nix via the recommended [multi-user installation]:"
@@ -52,7 +52,7 @@ msgstr ""
 
 #: ../../../install-nix.md:0
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 #: ../../../install-nix.md:26
 msgid "$ curl -L https://nixos.org/nix/install | sh\n"

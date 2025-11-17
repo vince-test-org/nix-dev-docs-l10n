@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../reference/glossary.md:1
 msgid "Glossary"
-msgstr ""
+msgstr "詞彙表"
 
 #: ../../../reference/glossary.md:0
 msgid "Nix"

@@ -19,23 +19,23 @@ msgstr ""
 
 #: ../../../reference/index.md:6
 msgid "Nixpkgs manual"
-msgstr ""
+msgstr "Nixpkgs 手冊"
 
 #: ../../../reference/index.md:6
 msgid "NixOS manual"
-msgstr ""
+msgstr "NixOS 手冊"
 
 #: ../../../reference/index.md:6
 msgid "Community projects"
-msgstr ""
+msgstr "社群專案"
 
 #: ../../../reference/index.md:6
 msgid "Support tools"
-msgstr ""
+msgstr "支援工具"
 
 #: ../../../reference/index.md:2
 msgid "Reference"
-msgstr ""
+msgstr "參考手冊"
 
 #: ../../../reference/index.md:4
 msgid "These sections contain collections of detailed technical descriptions."

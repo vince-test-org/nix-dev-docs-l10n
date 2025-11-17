@@ -54,7 +54,7 @@ msgstr ""
 #: ../../../guides/best-practices.md:95 ../../../guides/best-practices.md:203
 #: ../../../guides/best-practices.md:217
 msgid "Example:"
-msgstr ""
+msgstr "範例："
 
 #: ../../../guides/best-practices.md:21
 msgid ""

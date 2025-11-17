@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../guides/index.md:2
 msgid "Guides"
-msgstr ""
+msgstr "指南"
 
 #: ../../../guides/index.md:4
 msgid "These sections contain guides to getting things done."

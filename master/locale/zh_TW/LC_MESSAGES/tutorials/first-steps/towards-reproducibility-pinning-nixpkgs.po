@@ -103,7 +103,7 @@ msgstr ""
 
 #: ../../../tutorials/first-steps/towards-reproducibility-pinning-nixpkgs.md:43
 msgid "Next steps"
-msgstr ""
+msgstr "下一步"
 
 #: ../../../tutorials/first-steps/towards-reproducibility-pinning-nixpkgs.md:45
 msgid ""

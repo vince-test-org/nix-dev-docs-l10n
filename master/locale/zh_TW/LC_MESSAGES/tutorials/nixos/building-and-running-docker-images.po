@@ -222,7 +222,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/building-and-running-docker-images.md:120
 msgid "Next steps"
-msgstr ""
+msgstr "下一步"
 
 #: ../../../tutorials/nixos/building-and-running-docker-images.md:122
 msgid ""

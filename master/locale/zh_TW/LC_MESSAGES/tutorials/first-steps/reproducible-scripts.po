@@ -203,7 +203,7 @@ msgstr ""
 
 #: ../../../tutorials/first-steps/reproducible-scripts.md:98
 msgid "Next steps"
-msgstr ""
+msgstr "下一步"
 
 #: ../../../tutorials/first-steps/reproducible-scripts.md:100
 msgid ""

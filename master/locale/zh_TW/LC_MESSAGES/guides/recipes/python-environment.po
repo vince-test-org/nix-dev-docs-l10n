@@ -172,7 +172,7 @@ msgstr ""
 
 #: ../../../guides/recipes/python-environment.md:105
 msgid "Next steps"
-msgstr ""
+msgstr "下一步"
 
 #: ../../../guides/recipes/python-environment.md:107
 msgid "[](packaging-tutorial)"

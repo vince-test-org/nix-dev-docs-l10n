@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../../../tutorials/module-system/deep-dive.md:8
 msgid "Overview"
-msgstr ""
+msgstr "概覽"
 
 #: ../../../tutorials/module-system/deep-dive.md:10
 msgid ""

@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../../tutorials/index.md:2
 msgid "Tutorials"
-msgstr ""
+msgstr "教學"
 
 #: ../../../tutorials/index.md:4
 msgid "These sections contain a series of lessons to get started."

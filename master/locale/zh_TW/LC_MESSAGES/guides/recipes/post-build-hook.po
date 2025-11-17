@@ -174,7 +174,7 @@ msgstr ""
 
 #: ../../../guides/recipes/post-build-hook.md:84
 msgid "Testing"
-msgstr ""
+msgstr "測試"
 
 #: ../../../guides/recipes/post-build-hook.md:86
 msgid "Build any derivation, for example:"

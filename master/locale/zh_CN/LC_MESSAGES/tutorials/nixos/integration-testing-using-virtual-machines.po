@@ -52,7 +52,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/integration-testing-using-virtual-machines.md:16
 msgid "Introduction"
-msgstr ""
+msgstr "简介"
 
 #: ../../../tutorials/nixos/integration-testing-using-virtual-machines.md:18
 msgid ""

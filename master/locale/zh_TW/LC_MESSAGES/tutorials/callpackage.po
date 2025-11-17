@@ -42,7 +42,7 @@ msgstr ""
 
 #: ../../../tutorials/callpackage.md:21
 msgid "Overview"
-msgstr ""
+msgstr "概覽"
 
 #: ../../../tutorials/callpackage.md:23
 msgid ""
@@ -499,7 +499,7 @@ msgstr ""
 
 #: ../../../tutorials/callpackage.md:274
 msgid "References"
-msgstr ""
+msgstr "參考"
 
 #: ../../../tutorials/callpackage.md:276
 msgid ""
@@ -509,7 +509,7 @@ msgstr ""
 
 #: ../../../tutorials/callpackage.md:278
 msgid "Next steps"
-msgstr ""
+msgstr "下一步"
 
 #: ../../../tutorials/callpackage.md:280
 msgid "[](file-sets-tutorial) - learn to package your own projects with Nix"

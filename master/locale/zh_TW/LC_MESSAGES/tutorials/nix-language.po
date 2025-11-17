@@ -79,7 +79,7 @@ msgstr ""
 
 #: ../../../tutorials/nix-language.md:32
 msgid "Overview"
-msgstr ""
+msgstr "概覽"
 
 #: ../../../tutorials/nix-language.md:34
 msgid ""
@@ -361,7 +361,7 @@ msgstr ""
 #: ../../../tutorials/nix-language.md:1912
 #: ../../../tutorials/nix-language.md:2090
 msgid "Example:"
-msgstr ""
+msgstr "範例："
 
 #: ../../../tutorials/nix-language.md:131
 msgid ""
@@ -943,7 +943,7 @@ msgstr ""
 #: ../../../tutorials/nix-language.md:690
 #: ../../../tutorials/nix-language.md:721
 msgid "is equivalent to"
-msgstr ""
+msgstr "等價於"
 
 #: ../../../tutorials/nix-language.md:626
 msgid "[ a.x a.y a.z ]"
@@ -2749,7 +2749,7 @@ msgstr ""
 
 #: ../../../tutorials/nix-language.md:2056
 msgid "References"
-msgstr ""
+msgstr "參考"
 
 #: ../../../tutorials/nix-language.md:2058
 msgid "[Nix manual: Nix language][manual-language]"
@@ -2777,7 +2777,7 @@ msgstr ""
 
 #: ../../../tutorials/nix-language.md:2067
 msgid "Next steps"
-msgstr ""
+msgstr "下一步"
 
 #: ../../../tutorials/nix-language.md:2069
 msgid "Get things done"
@@ -2807,7 +2807,7 @@ msgstr ""
 
 #: ../../../tutorials/nix-language.md:2081
 msgid "Learn more"
-msgstr ""
+msgstr "了解更多"
 
 #: ../../../tutorials/nix-language.md:2083
 msgid ""

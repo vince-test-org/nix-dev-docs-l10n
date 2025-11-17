@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../../tutorials/first-steps/declarative-shell.md:10
 msgid "Overview"
-msgstr ""
+msgstr "概覽"
 
 #: ../../../tutorials/first-steps/declarative-shell.md:12
 msgid "Declarative shell environments allow you to:"
@@ -234,7 +234,7 @@ msgstr ""
 
 #: ../../../tutorials/first-steps/declarative-shell.md:113
 msgid "Environment variables"
-msgstr ""
+msgstr "環境變數"
 
 #: ../../../tutorials/first-steps/declarative-shell.md:115
 msgid ""
@@ -343,7 +343,7 @@ msgstr ""
 
 #: ../../../tutorials/first-steps/declarative-shell.md:182
 msgid "References"
-msgstr ""
+msgstr "參考"
 
 #: ../../../tutorials/first-steps/declarative-shell.md:184
 msgid ""
@@ -365,7 +365,7 @@ msgstr ""
 
 #: ../../../tutorials/first-steps/declarative-shell.md:188
 msgid "Next steps"
-msgstr ""
+msgstr "下一步"
 
 #: ../../../tutorials/first-steps/declarative-shell.md:190
 msgid "[](reading-nix-language)"

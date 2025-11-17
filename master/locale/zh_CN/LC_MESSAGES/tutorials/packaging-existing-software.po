@@ -45,7 +45,7 @@ msgstr ""
 
 #: ../../../tutorials/packaging-existing-software.md:16
 msgid "Introduction"
-msgstr ""
+msgstr "简介"
 
 #: ../../../tutorials/packaging-existing-software.md:18
 msgid ""

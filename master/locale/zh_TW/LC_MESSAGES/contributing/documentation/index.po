@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../../contributing/documentation/index.md:6
 msgid "Getting started"
-msgstr ""
+msgstr "開始使用"
 
 #: ../../../contributing/documentation/index.md:8
 msgid ""

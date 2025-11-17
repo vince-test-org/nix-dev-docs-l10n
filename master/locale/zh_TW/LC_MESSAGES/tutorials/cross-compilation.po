@@ -534,7 +534,7 @@ msgstr ""
 
 #: ../../../tutorials/cross-compilation.md:307
 msgid "Next steps"
-msgstr ""
+msgstr "下一步"
 
 #: ../../../tutorials/cross-compilation.md:309
 msgid ""

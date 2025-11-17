@@ -52,7 +52,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/integration-testing-using-virtual-machines.md:16
 msgid "Introduction"
-msgstr ""
+msgstr "簡介"
 
 #: ../../../tutorials/nixos/integration-testing-using-virtual-machines.md:18
 msgid ""
@@ -283,7 +283,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/integration-testing-using-virtual-machines.md:164
 msgid "Running tests"
-msgstr ""
+msgstr "執行測試"
 
 #: ../../../tutorials/nixos/integration-testing-using-virtual-machines.md:166
 msgid "To set up all machines and run the test script:"
@@ -576,7 +576,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/integration-testing-using-virtual-machines.md:325
 msgid "Next steps"
-msgstr ""
+msgstr "下一步"
 
 #: ../../../tutorials/nixos/integration-testing-using-virtual-machines.md:327
 msgid "[](module-system-deep-dive)"

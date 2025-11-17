@@ -58,7 +58,7 @@ msgstr ""
 
 #: ../../../contributing/how-to-contribute.md:18
 msgid "Getting started"
-msgstr ""
+msgstr "開始使用"
 
 #: ../../../contributing/how-to-contribute.md:20
 msgid ""

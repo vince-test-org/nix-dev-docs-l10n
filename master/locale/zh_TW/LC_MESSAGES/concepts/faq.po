@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../concepts/faq.md:1
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "常見問題集"
 
 #: ../../../concepts/faq.md:3
 msgid "What is the origin of the name Nix?"
@@ -136,7 +136,7 @@ msgstr ""
 
 #: ../../../concepts/faq.md:48
 msgid "Example"
-msgstr ""
+msgstr "範例"
 
 #: ../../../concepts/faq.md:49
 msgid ""

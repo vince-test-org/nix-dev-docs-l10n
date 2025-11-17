@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../recommended-reading.md:1
 msgid "Further reading"
-msgstr ""
+msgstr "延伸閱讀"
 
 #: ../../../recommended-reading.md:3
 msgid "Nix language tutorials"

@@ -343,7 +343,7 @@ msgstr ""
 
 #: ../../../concepts/flakes.md:111
 msgid "Further reading"
-msgstr ""
+msgstr "延伸閱讀"
 
 #: ../../../concepts/flakes.md:113
 msgid ""

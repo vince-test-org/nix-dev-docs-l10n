@@ -111,7 +111,7 @@ msgstr ""
 
 #: ../../../reference/pinning-nixpkgs.md:51
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../reference/pinning-nixpkgs.md:53
 msgid "$ nix-build -I ~/dev\n"

@@ -141,7 +141,7 @@ msgstr ""
 
 #: ../../../contributing/how-to-get-help.md:49
 msgid "Email"
-msgstr ""
+msgstr "電子郵件"
 
 #: ../../../contributing/how-to-get-help.md:51
 msgid "Use email addresses found with `git log`."

@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/building-bootable-iso-image.md:39
 msgid "Next steps"
-msgstr ""
+msgstr "下一步"
 
 #: ../../../tutorials/nixos/building-bootable-iso-image.md:41
 msgid ""

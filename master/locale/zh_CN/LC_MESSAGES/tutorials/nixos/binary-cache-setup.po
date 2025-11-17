@@ -39,7 +39,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/binary-cache-setup.md:14
 msgid "Introduction"
-msgstr ""
+msgstr "简介"
 
 #: ../../../tutorials/nixos/binary-cache-setup.md:16
 msgid ""

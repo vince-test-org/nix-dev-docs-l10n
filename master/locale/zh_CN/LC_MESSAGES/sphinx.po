@@ -2630,7 +2630,7 @@ msgstr ""
 #: themes/agogo/layout.html:29 themes/basic/globaltoc.html:2
 #: themes/basic/localtoc.html:4 themes/scrolls/layout.html:32
 msgid "Table of Contents"
-msgstr ""
+msgstr "目录"
 
 #: themes/agogo/layout.html:34 themes/basic/layout.html:130
 #: themes/basic/search.html:3 themes/basic/search.html:15
@@ -2976,7 +2976,7 @@ msgstr ""
 
 #: domains/python/_object.py:206
 msgid "Variables"
-msgstr ""
+msgstr "变量"
 
 #: domains/python/_object.py:214
 msgid "Raises"

@@ -341,7 +341,7 @@ msgstr ""
 
 #: ../../../tutorials/first-steps/ad-hoc-shell-environments.md:202
 msgid "References"
-msgstr ""
+msgstr "參考"
 
 #: ../../../tutorials/first-steps/ad-hoc-shell-environments.md:204
 msgid ""
@@ -357,7 +357,7 @@ msgstr ""
 
 #: ../../../tutorials/first-steps/ad-hoc-shell-environments.md:207
 msgid "Next steps"
-msgstr ""
+msgstr "下一步"
 
 #: ../../../tutorials/first-steps/ad-hoc-shell-environments.md:209
 msgid "{ref}`reproducible-scripts` – use Nix for reproducible scripts"

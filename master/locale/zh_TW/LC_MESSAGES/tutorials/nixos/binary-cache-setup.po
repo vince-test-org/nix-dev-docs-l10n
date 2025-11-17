@@ -39,7 +39,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/binary-cache-setup.md:14
 msgid "Introduction"
-msgstr ""
+msgstr "簡介"
 
 #: ../../../tutorials/nixos/binary-cache-setup.md:16
 msgid ""
@@ -373,7 +373,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/binary-cache-setup.md:209
 msgid "Next steps"
-msgstr ""
+msgstr "下一步"
 
 #: ../../../tutorials/nixos/binary-cache-setup.md:211
 msgid ""
@@ -458,7 +458,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/binary-cache-setup.md:236
 msgid "References"
-msgstr ""
+msgstr "參考"
 
 #: ../../../tutorials/nixos/binary-cache-setup.md:238
 msgid ""

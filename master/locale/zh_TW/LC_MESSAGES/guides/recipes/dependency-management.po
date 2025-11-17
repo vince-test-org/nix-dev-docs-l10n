@@ -201,7 +201,7 @@ msgstr ""
 
 #: ../../../guides/recipes/dependency-management.md:110
 msgid "Next steps"
-msgstr ""
+msgstr "下一步"
 
 #: ../../../guides/recipes/dependency-management.md:112
 msgid "Check the built-in help for more information:"

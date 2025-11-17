@@ -274,7 +274,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/deploying-nixos-using-terraform.md:163
 msgid "Next steps"
-msgstr ""
+msgstr "下一步"
 
 #: ../../../tutorials/nixos/deploying-nixos-using-terraform.md:165
 msgid ""

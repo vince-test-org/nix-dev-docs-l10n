@@ -162,7 +162,7 @@ msgstr ""
 
 #: ../../../guides/recipes/continuous-integration-github-actions.md:75
 msgid "Next steps"
-msgstr ""
+msgstr "下一步"
 
 #: ../../../guides/recipes/continuous-integration-github-actions.md:77
 msgid ""
