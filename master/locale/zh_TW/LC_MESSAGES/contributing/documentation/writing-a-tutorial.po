@@ -184,7 +184,7 @@ msgstr ""
 
 #: ../../../contributing/documentation/writing-a-tutorial.md:68
 msgid "What will you learn?"
-msgstr ""
+msgstr "您將會學到什麼？"
 
 #: ../../../contributing/documentation/writing-a-tutorial.md:70
 msgid "Describe the problem statement and learning goals."
@@ -199,7 +199,7 @@ msgstr ""
 
 #: ../../../contributing/documentation/writing-a-tutorial.md:74
 msgid "What do you need?"
-msgstr ""
+msgstr "您需要什麼？"
 
 #: ../../../contributing/documentation/writing-a-tutorial.md:76
 msgid ""

@@ -51,7 +51,7 @@ msgstr ""
 
 #: ../../../tutorials/module-system/deep-dive.md:14
 msgid "What will you learn?"
-msgstr ""
+msgstr "您將會學到什麼？"
 
 #: ../../../tutorials/module-system/deep-dive.md:16
 msgid ""
@@ -69,7 +69,7 @@ msgstr ""
 
 #: ../../../tutorials/module-system/deep-dive.md:20
 msgid "What do you need?"
-msgstr ""
+msgstr "您需要什麼？"
 
 #: ../../../tutorials/module-system/deep-dive.md:22
 msgid ""

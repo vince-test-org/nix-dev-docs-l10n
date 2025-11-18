@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../../tutorials/nixos/integration-testing-using-virtual-machines.md:3
 msgid "Integration testing with NixOS virtual machines"
-msgstr ""
+msgstr "使用 NixOS 虛擬機進行整合測試"
 
 #: ../../../tutorials/nixos/integration-testing-using-virtual-machines.md:5
 msgid "What will you learn?"
-msgstr ""
+msgstr "您將會學到什麼？"
 
 #: ../../../tutorials/nixos/integration-testing-using-virtual-machines.md:7
 msgid ""
@@ -34,7 +34,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/integration-testing-using-virtual-machines.md:10
 msgid "What do you need?"
-msgstr ""
+msgstr "您需要什麼？"
 
 #: ../../../tutorials/nixos/integration-testing-using-virtual-machines.md:12
 msgid ""

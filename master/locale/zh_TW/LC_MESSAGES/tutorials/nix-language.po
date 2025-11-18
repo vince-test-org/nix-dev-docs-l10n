@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../tutorials/nix-language.md:3
 msgid "Nix language basics"
-msgstr ""
+msgstr "Nix 語言基礎"
 
 #: ../../../tutorials/nix-language.md:5
 msgid ""
@@ -132,7 +132,7 @@ msgstr ""
 
 #: ../../../tutorials/nix-language.md:48
 msgid "What will you learn?"
-msgstr ""
+msgstr "您將會學到什麼？"
 
 #: ../../../tutorials/nix-language.md:50
 msgid ""
@@ -180,7 +180,7 @@ msgstr ""
 
 #: ../../../tutorials/nix-language.md:70
 msgid "What do you need?"
-msgstr ""
+msgstr "您需要什麼？"
 
 #: ../../../tutorials/nix-language.md:72
 msgid "Familiarity with software development"
@@ -969,6 +969,17 @@ msgid ""
 "  c = x;\n"
 "}"
 msgstr ""
+"let\n"
+"  a = {\n"
+"    x = 1;\n"
+"    y = 2;\n"
+"    z = 3;\n"
+"  };\n"
+"in\n"
+"{\n"
+"  b = with a; [ x y z ];\n"
+"  c = x;\n"
+"}"
 
 #: ../../../tutorials/nix-language.md:649
 msgid ""
@@ -1081,6 +1092,10 @@ msgid ""
 "  y = { x = 1; y = 2; }.y;\n"
 "in"
 msgstr ""
+"let\n"
+"  x = { x = 1; y = 2; }.x;\n"
+"  y = { x = 1; y = 2; }.y;\n"
+"in"
 
 #: ../../../tutorials/nix-language.md:757
 msgid ""

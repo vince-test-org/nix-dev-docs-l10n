@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/index.md:5
 msgid "Creating NixOS images"
-msgstr ""
+msgstr "建立 NixOS 映像"
 
 #: ../../../tutorials/nixos/index.md:7
 msgid "[](nixos-configuration-on-vm)"
@@ -43,7 +43,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/index.md:11
 msgid "Testing and deploying NixOS configurations"
-msgstr ""
+msgstr "測試並部署 NixOS 組態"
 
 #: ../../../tutorials/nixos/index.md:13
 msgid "[](integration-testing-using-virtual-machines)"

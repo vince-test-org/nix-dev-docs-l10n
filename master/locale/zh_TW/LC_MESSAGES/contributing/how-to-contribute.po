@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../contributing/how-to-contribute.md:2
 msgid "How to contribute"
-msgstr ""
+msgstr "如何貢獻"
 
 #: ../../../contributing/how-to-contribute.md:4
 msgid ""
@@ -105,7 +105,7 @@ msgstr ""
 
 #: ../../../contributing/how-to-contribute.md:41
 msgid "Report an issue"
-msgstr ""
+msgstr "回報議題"
 
 #: ../../../contributing/how-to-contribute.md:44
 msgid ""

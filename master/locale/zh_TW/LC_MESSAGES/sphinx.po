@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../_templates/about.html:10
 msgid "Official documentation for getting things done with Nix."
-msgstr ""
+msgstr "使用 Nix 完成工作的官方文件。"
 
 #: ../../../_templates/download-links.html:1
 msgid "nix.dev as <a href=\"/nix-dev.pdf\">PDF"

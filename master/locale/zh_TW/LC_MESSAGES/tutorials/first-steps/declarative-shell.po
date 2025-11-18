@@ -49,7 +49,7 @@ msgstr ""
 
 #: ../../../tutorials/first-steps/declarative-shell.md:18
 msgid "What will you learn?"
-msgstr ""
+msgstr "您將會學到什麼？"
 
 #: ../../../tutorials/first-steps/declarative-shell.md:20
 msgid ""
@@ -78,7 +78,7 @@ msgstr ""
 
 #: ../../../tutorials/first-steps/declarative-shell.md:31
 msgid "What do you need?"
-msgstr ""
+msgstr "您需要什麼？"
 
 #: ../../../tutorials/first-steps/declarative-shell.md:33
 msgid "Familiarity with the Unix shell"

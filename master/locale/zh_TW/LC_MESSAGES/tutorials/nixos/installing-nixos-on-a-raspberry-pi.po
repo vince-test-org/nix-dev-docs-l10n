@@ -20,7 +20,7 @@ msgstr ""
 #: ../../../tutorials/nixos/installing-nixos-on-a-raspberry-pi.md:0
 #: ../../../tutorials/nixos/installing-nixos-on-a-raspberry-pi.md:9
 msgid "Installing NixOS on a Raspberry Pi"
-msgstr ""
+msgstr "在 Raspberry Pi 上安裝 NixOS"
 
 #: ../../../tutorials/nixos/installing-nixos-on-a-raspberry-pi.md:0
 msgid "Raspberry Pi, rpi, NixOS, installation, image, tutorial"

@@ -39,7 +39,7 @@ msgstr ""
 
 #: ../../../contributing/documentation/resources.md:9
 msgid "[Nix reference manual](nix-manual)"
-msgstr ""
+msgstr "[Nix 參考手冊](nix-manual)"
 
 #: ../../../contributing/documentation/resources.md:10
 msgid "[source](https://github.com/NixOS/nix/tree/master/doc/manual)"
@@ -59,7 +59,7 @@ msgstr ""
 
 #: ../../../contributing/documentation/resources.md:13
 msgid "[Nixpkgs reference manual](https://nixos.org/manual/nixpkgs)"
-msgstr ""
+msgstr "[Nixpkgs 參考手冊](https://nixos.org/manual/nixpkgs)"
 
 #: ../../../contributing/documentation/resources.md:14
 msgid "[source](https://github.com/NixOS/nixpkgs/tree/master/doc)"
@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../contributing/documentation/resources.md:17
 msgid "[NixOS reference manual](https://nixos.org/manual/nixos)"
-msgstr ""
+msgstr "[NixOS 參考手冊](https://nixos.org/manual/nixos)"
 
 #: ../../../contributing/documentation/resources.md:18
 msgid "[source](https://github.com/NixOS/nixpkgs/tree/master/nixos/doc/manual)"

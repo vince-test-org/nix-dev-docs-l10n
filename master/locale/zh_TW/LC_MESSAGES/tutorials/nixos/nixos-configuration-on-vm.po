@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/nixos-configuration-on-vm.md:3
 msgid "NixOS virtual machines"
-msgstr ""
+msgstr "NixOS 虛擬機"
 
 #: ../../../tutorials/nixos/nixos-configuration-on-vm.md:5
 msgid ""
@@ -36,7 +36,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/nixos-configuration-on-vm.md:9
 msgid "What will you learn?"
-msgstr ""
+msgstr "您將會學到什麼？"
 
 #: ../../../tutorials/nixos/nixos-configuration-on-vm.md:11
 msgid ""
@@ -47,7 +47,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/nixos-configuration-on-vm.md:14
 msgid "What do you need?"
-msgstr ""
+msgstr "您需要什麼？"
 
 #: ../../../tutorials/nixos/nixos-configuration-on-vm.md:16
 msgid "A Linux system with virtualisation support"

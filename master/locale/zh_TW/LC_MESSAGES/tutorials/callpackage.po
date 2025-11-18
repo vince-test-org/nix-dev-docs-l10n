@@ -58,7 +58,7 @@ msgstr ""
 
 #: ../../../tutorials/callpackage.md:27
 msgid "What will you learn?"
-msgstr ""
+msgstr "您將會學到什麼？"
 
 #: ../../../tutorials/callpackage.md:29
 msgid ""
@@ -75,7 +75,7 @@ msgstr ""
 
 #: ../../../tutorials/callpackage.md:33
 msgid "What do you need?"
-msgstr ""
+msgstr "您需要什麼？"
 
 #: ../../../tutorials/callpackage.md:35
 msgid "Familiarity with the [Nix language](reading-nix-language)"
@@ -162,6 +162,9 @@ msgid ""
 "$ ./result/bin/hello\n"
 "Hello, world!\n"
 msgstr ""
+"$ nix-build\n"
+"$ ./result/bin/hello\n"
+"Hello, world!\n"
 
 #: ../../../tutorials/callpackage.md:79
 msgid ""
@@ -382,6 +385,16 @@ msgid ""
 "  e = pkgs.callPackage ./e.nix { inherit c d; };\n"
 "}"
 msgstr ""
+"let\n"
+"  pkgs = import <nixpkgs> { };\n"
+"in\n"
+"rec {\n"
+"  a = pkgs.callPackage ./a.nix { };\n"
+"  b = pkgs.callPackage ./b.nix { inherit a; };\n"
+"  c = pkgs.callPackage ./c.nix { inherit b; };\n"
+"  d = pkgs.callPackage ./d.nix { };\n"
+"  e = pkgs.callPackage ./e.nix { inherit c d; };\n"
+"}"
 
 #: ../../../tutorials/callpackage.md:218
 msgid "Here, `inherit a;` is equivalent to `a = a;`."

@@ -47,7 +47,7 @@ msgstr ""
 
 #: ../../../reference/nix-manual.md:9
 msgid "Nix reference manual"
-msgstr ""
+msgstr "Nix 參考手冊"
 
 #: ../../../reference/nix-manual.md:11
 msgid ""

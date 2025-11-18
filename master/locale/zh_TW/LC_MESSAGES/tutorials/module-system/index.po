@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../../tutorials/module-system/index.md:2
 msgid "Module system"
-msgstr ""
+msgstr "模組系統"
 
 #: ../../../tutorials/module-system/index.md:4
 msgid "Much of the power in Nixpkgs and NixOS comes from the module system."
@@ -71,7 +71,7 @@ msgstr ""
 
 #: ../../../tutorials/module-system/index.md:18
 msgid "What do you need?"
-msgstr ""
+msgstr "您需要什麼？"
 
 #: ../../../tutorials/module-system/index.md:20
 msgid "Familiarity with data types and general programming concepts"

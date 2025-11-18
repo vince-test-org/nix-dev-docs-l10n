@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../tutorials/index.md:6
 msgid "Packaging existing software"
-msgstr ""
+msgstr "打包現有軟體"
 
 #: ../../../tutorials/index.md:6
 msgid "Package parameters and overrides"

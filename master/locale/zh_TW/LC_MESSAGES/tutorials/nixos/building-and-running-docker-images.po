@@ -20,7 +20,7 @@ msgstr ""
 #: ../../../tutorials/nixos/building-and-running-docker-images.md:0
 #: ../../../tutorials/nixos/building-and-running-docker-images.md:9
 msgid "Building and running Docker images"
-msgstr ""
+msgstr "建置並執行 Docker 映像"
 
 #: ../../../tutorials/nixos/building-and-running-docker-images.md:0
 msgid "Docker, containers, Nix, reproducible, build, tutorial"

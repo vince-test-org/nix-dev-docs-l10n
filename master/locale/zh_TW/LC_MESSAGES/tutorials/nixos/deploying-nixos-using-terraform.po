@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/deploying-nixos-using-terraform.md:9
 msgid "Deploying NixOS using Terraform"
-msgstr ""
+msgstr "使用 Terraform 部署 NixOS"
 
 #: ../../../tutorials/nixos/deploying-nixos-using-terraform.md:11
 msgid ""
@@ -203,7 +203,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/deploying-nixos-using-terraform.md:123
 msgid "Deploying NixOS changes"
-msgstr ""
+msgstr "部署 NixOS 變更"
 
 #: ../../../tutorials/nixos/deploying-nixos-using-terraform.md:125
 msgid ""

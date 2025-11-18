@@ -35,7 +35,7 @@ msgstr ""
 
 #: ../../../reference/glossary.md:10
 msgid "[Nix reference manual](./nix-manual.md)"
-msgstr ""
+msgstr "[Nix 參考手冊](./nix-manual.md)"
 
 #: ../../../reference/glossary.md:11
 msgid "[Nix source code](https://github.com/NixOS/nix)"
@@ -88,7 +88,7 @@ msgstr ""
 
 #: ../../../reference/glossary.md:34
 msgid "[Nixpkgs reference manual](https://nixos.org/manual/nixpkgs)"
-msgstr ""
+msgstr "[Nixpkgs 參考手冊](https://nixos.org/manual/nixpkgs)"
 
 #: ../../../reference/glossary.md:35
 msgid "[Nixpkgs source code](https://github.com/NixOS/nixpkgs)"
@@ -108,7 +108,7 @@ msgstr ""
 
 #: ../../../reference/glossary.md:44
 msgid "[NixOS reference manual](https://nixos.org/manual/nixos)"
-msgstr ""
+msgstr "[NixOS 參考手冊](https://nixos.org/manual/nixos)"
 
 #: ../../../reference/glossary.md:45
 msgid "[NixOS source code](https://github.com/NixOS/nixpkgs/tree/master/nixos)"

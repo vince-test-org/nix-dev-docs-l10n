@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../guides/best-practices.md:1
 msgid "Best practices"
-msgstr ""
+msgstr "最佳實踐"
 
 #: ../../../guides/best-practices.md:3
 msgid "URLs"
@@ -272,7 +272,7 @@ msgstr ""
 
 #: ../../../guides/best-practices.md:171
 msgid "Reproducible Nixpkgs configuration"
-msgstr ""
+msgstr "可重現的 Nixpkgs 組態"
 
 #: ../../../guides/best-practices.md:173
 msgid ""
@@ -370,7 +370,7 @@ msgstr ""
 
 #: ../../../guides/best-practices.md:246
 msgid "Reproducible source paths"
-msgstr ""
+msgstr "可重現的來源路徑"
 
 #: ../../../guides/best-practices.md:248
 msgid ""

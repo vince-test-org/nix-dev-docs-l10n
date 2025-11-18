@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../index.md:0
 msgid "Official documentation for getting things done with Nix."
-msgstr ""
+msgstr "使用 Nix 完成工作的官方文件。"
 
 #: ../../../index.md:0
 msgid ""
@@ -41,12 +41,16 @@ msgid ""
 "maintained by the [Nix documentation team](https://nixos.org/community/teams/"
 "documentation)."
 msgstr ""
+"nix.dev 是 Nix 生態系官方文件的主頁。它由 [Nix 文件團隊](https://nixos.org/"
+"community/teams/documentation)維護。"
 
 #: ../../../index.md:15
 msgid ""
 "If you're new here, {ref}`install Nix <install-nix>` and begin your journey "
 "with our tutorial series!"
 msgstr ""
+"如果您是新來的，請{ref}`安裝 Nix <install-nix>` 並透過我們的教學系列開始您的"
+"旅程！"
 
 #: ../../../index.md:19
 msgid "Tutorials"
@@ -82,7 +86,7 @@ msgstr ""
 
 #: ../../../index.md:53
 msgid "What can you do with Nix?"
-msgstr ""
+msgstr "您可以用 Nix 做什麼？"
 
 #: ../../../index.md:55
 msgid ""
@@ -92,15 +96,15 @@ msgstr ""
 
 #: ../../../index.md:57
 msgid "{ref}`Reproducible development environments <ad-hoc-envs>`."
-msgstr ""
+msgstr "{ref}`可重現的開發環境 <ad-hoc-envs>`。"
 
 #: ../../../index.md:58
 msgid "Easy installation of software over URLs."
-msgstr ""
+msgstr "透過網址輕鬆安裝軟體。"
 
 #: ../../../index.md:59
 msgid "Easy transfer of software environments between computers."
-msgstr ""
+msgstr "輕鬆在電腦之間轉移軟體環境。"
 
 #: ../../../index.md:60
 msgid ""
@@ -120,7 +124,7 @@ msgstr ""
 
 #: ../../../index.md:63
 msgid "Installing software from source code."
-msgstr ""
+msgstr "從來源碼安裝軟體。"
 
 #: ../../../index.md:64
 msgid "{ref}`Transparent build caching using binary caches <github-actions>`."
@@ -132,11 +136,11 @@ msgstr ""
 
 #: ../../../index.md:66
 msgid "{ref}`First-class cross compilation support <cross-compilation>`."
-msgstr ""
+msgstr "{ref}`一流的交叉編譯支援 <cross-compilation>`。"
 
 #: ../../../index.md:67
 msgid "Remote builds."
-msgstr ""
+msgstr "遠端建置。"
 
 #: ../../../index.md:68
 msgid "Remote deployments."
@@ -144,11 +148,11 @@ msgstr "遠端部署。"
 
 #: ../../../index.md:69
 msgid "Atomic upgrades and rollbacks."
-msgstr ""
+msgstr "原子升級與回滾。"
 
 #: ../../../index.md:72
 msgid "Who is Nix for?"
-msgstr ""
+msgstr "Nix 適合哪些人？"
 
 #: ../../../index.md:74
 msgid ""
@@ -185,11 +189,11 @@ msgstr "嵌入式系統開發者"
 
 #: ../../../index.md:85
 msgid "DevOps engineer"
-msgstr ""
+msgstr "開發運維工程師"
 
 #: ../../../index.md:86
 msgid "System administrator"
-msgstr ""
+msgstr "系統管理員"
 
 #: ../../../index.md:87
 msgid "Data scientist"
@@ -197,12 +201,12 @@ msgstr ""
 
 #: ../../../index.md:88
 msgid "Natural scientist"
-msgstr ""
+msgstr "自然科學家"
 
 #: ../../../index.md:89
 msgid "Student of a technical field"
-msgstr ""
+msgstr "技術領域的學生"
 
 #: ../../../index.md:90
 msgid "Open source software enthusiast"
-msgstr ""
+msgstr "開源軟體愛好者"

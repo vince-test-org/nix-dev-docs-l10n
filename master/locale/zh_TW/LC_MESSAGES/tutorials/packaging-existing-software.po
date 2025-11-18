@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../tutorials/packaging-existing-software.md:0
 msgid "Packaging Existing Software With Nix"
-msgstr ""
+msgstr "使用 Nix 打包現有軟體"
 
 #: ../../../tutorials/packaging-existing-software.md:0
 msgid "Nix, packaging"
@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../../tutorials/packaging-existing-software.md:9
 msgid "Packaging existing software with Nix"
-msgstr ""
+msgstr "使用 Nix 打包現有軟體"
 
 #: ../../../tutorials/packaging-existing-software.md:11
 msgid ""
@@ -58,7 +58,7 @@ msgstr ""
 
 #: ../../../tutorials/packaging-existing-software.md:20
 msgid "What will you learn?"
-msgstr ""
+msgstr "您將會學到什麼？"
 
 #: ../../../tutorials/packaging-existing-software.md:22
 msgid ""
@@ -77,7 +77,7 @@ msgstr ""
 
 #: ../../../tutorials/packaging-existing-software.md:27
 msgid "What do you need?"
-msgstr ""
+msgstr "您需要什麼？"
 
 #: ../../../tutorials/packaging-existing-software.md:29
 msgid "Familiarity with the Unix shell and plain text editors"
@@ -304,10 +304,17 @@ msgid ""
 "error: 1 dependencies of derivation '/nix/store/"
 "b4mjwlv73nmiqgkdabsdjc4zq9gnma1l-hello-2.12.1.drv' failed to build\n"
 msgstr ""
+"$ nix-build -A hello\n"
+"error: hash mismatch in fixed-output derivation '/nix/store/"
+"pd2kiyfa0c06giparlhd1k31bvllypbb-source.drv':\n"
+"         specified: sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=\n"
+"            got:    sha256-1kJjhtlsAkpNB7f6tZEs+dbKd8z7KoNHyDHEJ0tmhnc=\n"
+"error: 1 dependencies of derivation '/nix/store/"
+"b4mjwlv73nmiqgkdabsdjc4zq9gnma1l-hello-2.12.1.drv' failed to build\n"
 
 #: ../../../tutorials/packaging-existing-software.md:159
 msgid "Finding the file hash"
-msgstr ""
+msgstr "尋找檔案雜湊"
 
 #: ../../../tutorials/packaging-existing-software.md:160
 msgid ""
@@ -370,7 +377,7 @@ msgstr ""
 
 #: ../../../tutorials/packaging-existing-software.md:202
 msgid "Build result"
-msgstr ""
+msgstr "建置結果"
 
 #: ../../../tutorials/packaging-existing-software.md:203
 msgid "Check your working directory for the result:"

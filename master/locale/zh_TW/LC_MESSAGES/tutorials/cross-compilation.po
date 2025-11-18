@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../../tutorials/cross-compilation.md:11
 msgid "Cross compilation"
-msgstr ""
+msgstr "交叉編譯"
 
 #: ../../../tutorials/cross-compilation.md:13
 msgid ""
@@ -37,11 +37,11 @@ msgstr ""
 
 #: ../../../tutorials/cross-compilation.md:15
 msgid "What do you need?"
-msgstr ""
+msgstr "您需要什麼？"
 
 #: ../../../tutorials/cross-compilation.md:18
 msgid "Experience using C compilers"
-msgstr ""
+msgstr "使用 C 編譯器的經驗"
 
 #: ../../../tutorials/cross-compilation.md:19
 msgid "Basic knowledge of the [Nix language](<reading-nix-language>)"
@@ -79,7 +79,7 @@ msgstr ""
 
 #: ../../../tutorials/cross-compilation.md:36
 msgid "What's a target platform?"
-msgstr ""
+msgstr "什麼是目標平臺？"
 
 #: ../../../tutorials/cross-compilation.md:38
 msgid "There is a third concept for a platform we call a **target platform**."
@@ -121,6 +121,9 @@ msgid ""
 "config.guess\n"
 "aarch64-unknown-linux-gnu\n"
 msgstr ""
+"$ $(nix-build '<nixpkgs>' -I nixpkgs=channel:nixos-23.11 -A gnu-config)/"
+"config.guess\n"
+"aarch64-unknown-linux-gnu\n"
 
 #: ../../../tutorials/cross-compilation.md:56
 msgid ""
@@ -157,19 +160,19 @@ msgstr ""
 
 #: ../../../tutorials/cross-compilation.md:71
 msgid "aarch64-apple-darwin14"
-msgstr ""
+msgstr "aarch64-apple-darwin14"
 
 #: ../../../tutorials/cross-compilation.md:72
 msgid "aarch64-pc-linux-gnu"
-msgstr ""
+msgstr "aarch64-pc-linux-gnu"
 
 #: ../../../tutorials/cross-compilation.md:73
 msgid "x86_64-w64-mingw32"
-msgstr ""
+msgstr "x86_64-w64-mingw32"
 
 #: ../../../tutorials/cross-compilation.md:74
 msgid "aarch64-apple-ios"
-msgstr ""
+msgstr "aarch64-apple-ios"
 
 #: ../../../tutorials/cross-compilation.md:77
 msgid ""
@@ -269,7 +272,7 @@ msgstr ""
 
 #: ../../../tutorials/cross-compilation.md:144
 msgid "Specifying the host platform"
-msgstr ""
+msgstr "指定主機平臺"
 
 #: ../../../tutorials/cross-compilation.md:146
 msgid "The mechanism for setting up cross compilation works as follows:"
@@ -321,6 +324,12 @@ msgid ""
 "in\n"
 "pkgs.pkgsCross.aarch64-multiplatform.hello\n"
 msgstr ""
+"let\n"
+"  nixpkgs = fetchTarball \"https://github.com/NixOS/nixpkgs/tarball/"
+"release-23.11\";\n"
+"  pkgs = import nixpkgs {};\n"
+"in\n"
+"pkgs.pkgsCross.aarch64-multiplatform.hello\n"
 
 #: ../../../tutorials/cross-compilation.md:169
 msgid ""
