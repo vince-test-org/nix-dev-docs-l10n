@@ -67,7 +67,7 @@ msgstr ""
 
 #: ../../../tutorials/callpackage.md:30
 msgid "Overriding package parameters"
-msgstr ""
+msgstr "覆蓋軟體包參數"
 
 #: ../../../tutorials/callpackage.md:31
 msgid "Creating interdependent package sets"
@@ -91,7 +91,7 @@ msgstr ""
 
 #: ../../../tutorials/callpackage.md:40
 msgid "45 minutes"
-msgstr ""
+msgstr "45 分鐘"
 
 #: ../../../tutorials/callpackage.md:42
 msgid "Automatic function calls"
@@ -116,6 +116,10 @@ msgid ""
 "  echo \"Hello, world!\"\n"
 "''"
 msgstr ""
+"{ writeShellScriptBin }:\n"
+"writeShellScriptBin \"hello\" ''\n"
+"  echo \"Hello, world!\"\n"
+"''"
 
 #: ../../../tutorials/callpackage.md:0
 msgid "Detailed explanation"
@@ -149,6 +153,10 @@ msgid ""
 "in\n"
 "pkgs.callPackage ./hello.nix { }"
 msgstr ""
+"let\n"
+"  pkgs = import <nixpkgs> { };\n"
+"in\n"
+"pkgs.callPackage ./hello.nix { }"
 
 #: ../../../tutorials/callpackage.md:71
 msgid ""
@@ -215,6 +223,9 @@ msgid ""
 "$ ./result/bin/hello\n"
 "Hello, world!\n"
 msgstr ""
+"$ nix-build -A hello\n"
+"$ ./result/bin/hello\n"
+"Hello, world!\n"
 
 #: ../../../tutorials/callpackage.md:109
 msgid ""
@@ -254,6 +265,13 @@ msgid ""
 "+  hello = pkgs.callPackage ./hello.nix { audience = \"people\"; };\n"
 " }"
 msgstr ""
+" let\n"
+"   pkgs = import <nixpkgs> { };\n"
+" in\n"
+" {\n"
+"-  hello = pkgs.callPackage ./hello.nix { };\n"
+"+  hello = pkgs.callPackage ./hello.nix { audience = \"people\"; };\n"
+" }"
 
 #: ../../../tutorials/callpackage.md:138
 msgid ""
@@ -273,6 +291,9 @@ msgid ""
 "$ ./result/bin/hello\n"
 "Hello, people!\n"
 msgstr ""
+"$ nix-build -A hello\n"
+"$ ./result/bin/hello\n"
+"Hello, people!\n"
 
 #: ../../../tutorials/callpackage.md:149
 msgid ""
@@ -288,7 +309,7 @@ msgstr ""
 
 #: ../../../tutorials/callpackage.md:154
 msgid "Overrides"
-msgstr ""
+msgstr "覆蓋"
 
 #: ../../../tutorials/callpackage.md:156
 msgid ""
@@ -341,6 +362,9 @@ msgid ""
 "$ ./result/bin/hello\n"
 "Hello, folks!\n"
 msgstr ""
+"$ nix-build -A hello-folks\n"
+"$ ./result/bin/hello\n"
+"Hello, folks!\n"
 
 #: ../../../tutorials/callpackage.md:189
 msgid ""
@@ -436,6 +460,18 @@ msgid ""
 "in\n"
 "packages"
 msgstr ""
+"let\n"
+"  pkgs = import <nixpkgs> { };\n"
+"  callPackage = pkgs.lib.callPackageWith (pkgs // packages);\n"
+"  packages = {\n"
+"    a = callPackage ./a.nix { };\n"
+"    b = callPackage ./b.nix { };\n"
+"    c = callPackage ./c.nix { };\n"
+"    d = callPackage ./d.nix { };\n"
+"    e = callPackage ./e.nix { };\n"
+"  };\n"
+"in\n"
+"packages"
 
 #: ../../../tutorials/callpackage.md:245
 msgid "This requires some explanation."
@@ -500,7 +536,7 @@ msgstr ""
 
 #: ../../../tutorials/callpackage.md:270
 msgid "Parametrized builds"
-msgstr ""
+msgstr "參數化建置"
 
 #: ../../../tutorials/callpackage.md:271
 msgid "Overridable builds"

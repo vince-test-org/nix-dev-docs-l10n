@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../../contributing/how-to-get-help.md:7
 msgid "How to find maintainers"
-msgstr ""
+msgstr "如何尋找維護者"
 
 #: ../../../contributing/how-to-get-help.md:9
 msgid ""
@@ -85,7 +85,7 @@ msgstr ""
 
 #: ../../../contributing/how-to-get-help.md:26
 msgid "[GitHub](https://github.com/nixos)"
-msgstr ""
+msgstr "[GitHub](https://github.com/nixos)"
 
 #: ../../../contributing/how-to-get-help.md:28
 msgid ""
@@ -105,7 +105,7 @@ msgstr ""
 
 #: ../../../contributing/how-to-get-help.md:33
 msgid "[Discourse](https://discourse.nixos.org)"
-msgstr ""
+msgstr "[Discourse](https://discourse.nixos.org)"
 
 #: ../../../contributing/how-to-get-help.md:35
 msgid ""

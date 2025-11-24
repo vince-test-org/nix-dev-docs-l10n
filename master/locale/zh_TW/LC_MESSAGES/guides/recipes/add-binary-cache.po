@@ -49,6 +49,8 @@ msgid ""
 "$ nix-build --substituters https://example.org --trusted-public-keys example."
 "org:My56...Q==%\n"
 msgstr ""
+"$ nix-build --substituters https://example.org --trusted-public-keys example."
+"org:My56...Q==%\n"
 
 #: ../../../guides/recipes/add-binary-cache.md:16
 msgid ""
@@ -74,10 +76,13 @@ msgid ""
 "$ echo \"trusted-public-keys = example.org:My56...Q==%\" >> /etc/nix/nix."
 "conf\n"
 msgstr ""
+"$ echo \"substituters = https://example.org\" >> /etc/nix/nix.conf\n"
+"$ echo \"trusted-public-keys = example.org:My56...Q==%\" >> /etc/nix/nix."
+"conf\n"
 
 #: ../../../guides/recipes/add-binary-cache.md:30
 msgid "NixOS"
-msgstr ""
+msgstr "NixOS"
 
 #: ../../../guides/recipes/add-binary-cache.md:31
 msgid ""
@@ -94,3 +99,9 @@ msgid ""
 "  };\n"
 "}\n"
 msgstr ""
+"{ ... }: {\n"
+"  nix.settings = {\n"
+"    substituters = [ \"https://example.org\" ];\n"
+"    trusted-public-keys = [ \"example.org:My56...Q==%\" ];\n"
+"  };\n"
+"}\n"

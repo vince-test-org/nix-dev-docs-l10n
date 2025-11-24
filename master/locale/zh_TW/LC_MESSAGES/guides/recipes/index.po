@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../guides/recipes/index.md:4
 msgid "Automatic environments"
-msgstr ""
+msgstr "自動化環境"
 
 #: ../../../guides/recipes/index.md:4
 msgid "Managing remote sources"
@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../../guides/recipes/index.md:4
 msgid "Python development environment"
-msgstr ""
+msgstr "Python 開發環境"
 
 #: ../../../guides/recipes/index.md:2
 msgid "Recipes"

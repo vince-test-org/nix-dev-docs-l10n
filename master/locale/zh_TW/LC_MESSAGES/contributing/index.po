@@ -19,4 +19,4 @@ msgstr ""
 
 #: ../../../contributing/index.md:2
 msgid "Contributing"
-msgstr ""
+msgstr "貢獻"

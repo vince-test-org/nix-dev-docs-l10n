@@ -369,7 +369,7 @@ msgstr "下一步"
 
 #: ../../../tutorials/first-steps/declarative-shell.md:190
 msgid "[](reading-nix-language)"
-msgstr ""
+msgstr "[](reading-nix-language)"
 
 #: ../../../tutorials/first-steps/declarative-shell.md:191
 msgid "[](automatic-direnv)"

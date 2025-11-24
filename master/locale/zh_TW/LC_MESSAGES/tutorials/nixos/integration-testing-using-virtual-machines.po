@@ -44,7 +44,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/integration-testing-using-virtual-machines.md:13
 msgid "Basic knowledge of the [Nix language](<reading-nix-language>)"
-msgstr ""
+msgstr "[Nix 語言](<reading-nix-language>)的基礎知識"
 
 #: ../../../tutorials/nixos/integration-testing-using-virtual-machines.md:14
 msgid "Basic knowledge of [NixOS configuration](<nixos-vms>)"

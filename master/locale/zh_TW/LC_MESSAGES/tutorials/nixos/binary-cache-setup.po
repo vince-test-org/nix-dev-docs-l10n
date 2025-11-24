@@ -128,7 +128,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/binary-cache-setup.md:48
 msgid "25 minutes"
-msgstr ""
+msgstr "25 分鐘"
 
 #: ../../../tutorials/nixos/binary-cache-setup.md:50
 msgid "Set up services"
@@ -365,11 +365,11 @@ msgstr ""
 
 #: ../../../tutorials/nixos/binary-cache-setup.md:203
 msgid "Rebuild the system to deploy these changes:"
-msgstr ""
+msgstr "重新建置系統以部署這些變更："
 
 #: ../../../tutorials/nixos/binary-cache-setup.md:205
 msgid "nixos-rebuild switch --no-flake --target-host root@cache.example.com\n"
-msgstr ""
+msgstr "nixos-rebuild switch --no-flake --target-host root@cache.example.com\n"
 
 #: ../../../tutorials/nixos/binary-cache-setup.md:209
 msgid "Next steps"

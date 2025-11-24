@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../guides/recipes/sharing-dependencies.md:2
 msgid "Dependencies in the development shell"
-msgstr ""
+msgstr "開發外殼中的相依項"
 
 #: ../../../guides/recipes/sharing-dependencies.md:4
 msgid ""
@@ -73,7 +73,7 @@ msgstr ""
 
 #: ../../../guides/recipes/sharing-dependencies.md:33
 msgid "Complete example"
-msgstr ""
+msgstr "完整範例"
 
 #: ../../../guides/recipes/sharing-dependencies.md:35
 msgid "Assume your build is defined in `build.nix`:"
@@ -168,6 +168,8 @@ msgid ""
 "$ nix-shell --pure\n"
 "[nix-shell]$ cowsay shell.nix\n"
 msgstr ""
+"$ nix-shell --pure\n"
+"[nix-shell]$ cowsay shell.nix\n"
 
 #: ../../../guides/recipes/sharing-dependencies.md:107
 msgid "Next steps"

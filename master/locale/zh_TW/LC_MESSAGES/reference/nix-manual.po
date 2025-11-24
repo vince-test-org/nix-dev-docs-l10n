@@ -39,7 +39,7 @@ msgstr ""
 
 #: ../../../reference/nix-manual.md:0
 msgid "Nix reference manual version overview"
-msgstr ""
+msgstr "Nix 參考手冊版本概覽"
 
 #: ../../../reference/nix-manual.md:0
 msgid "Nix, reference, manual, documentation"
@@ -80,7 +80,7 @@ msgstr ""
 
 #: ../../../reference/nix-manual.md:35
 msgid "Latest Nix release"
-msgstr ""
+msgstr "最新的 Nix 發行版"
 
 #: ../../../reference/nix-manual.md:37
 msgid ""

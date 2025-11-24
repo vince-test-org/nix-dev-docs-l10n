@@ -23,7 +23,7 @@ msgstr "延伸閱讀"
 
 #: ../../../recommended-reading.md:3
 msgid "Nix language tutorials"
-msgstr ""
+msgstr "Nix 語言教學"
 
 #: ../../../recommended-reading.md:5
 msgid ""
@@ -130,7 +130,7 @@ msgstr ""
 
 #: ../../../recommended-reading.md:47
 msgid "Other videos"
-msgstr ""
+msgstr "其他影片"
 
 #: ../../../recommended-reading.md:49
 msgid ""

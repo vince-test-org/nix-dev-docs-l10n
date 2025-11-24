@@ -53,7 +53,7 @@ msgstr "您將會學到什麼？"
 
 #: ../../../tutorials/nixos/provisioning-remote-machines.md:22
 msgid "You'll learn how to"
-msgstr ""
+msgstr "您將會學到如何"
 
 #: ../../../tutorials/nixos/provisioning-remote-machines.md:23
 msgid ""

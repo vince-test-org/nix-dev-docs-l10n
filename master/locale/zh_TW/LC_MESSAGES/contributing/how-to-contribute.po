@@ -199,7 +199,7 @@ msgstr ""
 
 #: ../../../contributing/how-to-contribute.md:85
 msgid "Contribute to Nix"
-msgstr ""
+msgstr "貢獻 Nix"
 
 #: ../../../contributing/how-to-contribute.md:87
 msgid ""
@@ -216,7 +216,7 @@ msgstr ""
 
 #: ../../../contributing/how-to-contribute.md:92
 msgid "Contribute to Nixpkgs"
-msgstr ""
+msgstr "貢獻 Nixpkgs"
 
 #: ../../../contributing/how-to-contribute.md:95
 msgid ""
@@ -243,7 +243,7 @@ msgstr ""
 
 #: ../../../contributing/how-to-contribute.md:106
 msgid "Contribute to NixOS"
-msgstr ""
+msgstr "貢獻 NixOS"
 
 #: ../../../contributing/how-to-contribute.md:108
 msgid ""

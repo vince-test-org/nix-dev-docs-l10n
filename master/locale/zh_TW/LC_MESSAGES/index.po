@@ -116,11 +116,11 @@ msgstr ""
 msgid ""
 "{ref}`Reproducible integration testing using virtual machines <integration-"
 "testing-vms>`."
-msgstr ""
+msgstr "{ref}`使用虛擬機進行可重現的整合測試 <integration-testing-vms>`。"
 
 #: ../../../index.md:62
 msgid "Avoidance of version conflicts with already installed software."
-msgstr ""
+msgstr "避免與已安裝的軟體發生版本衝突。"
 
 #: ../../../index.md:63
 msgid "Installing software from source code."
@@ -177,7 +177,7 @@ msgstr ""
 
 #: ../../../index.md:82
 msgid "Full-stack or back-end developer"
-msgstr ""
+msgstr "全端或後端開發者"
 
 #: ../../../index.md:83
 msgid "Test engineer"
@@ -197,7 +197,7 @@ msgstr "系統管理員"
 
 #: ../../../index.md:87
 msgid "Data scientist"
-msgstr ""
+msgstr "資料科學家"
 
 #: ../../../index.md:88
 msgid "Natural scientist"

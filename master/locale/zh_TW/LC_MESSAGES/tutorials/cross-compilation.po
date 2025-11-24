@@ -33,7 +33,7 @@ msgstr "交叉編譯"
 msgid ""
 "Nixpkgs offers powerful tools to cross-compile software for various system "
 "types."
-msgstr ""
+msgstr "Nixpkgs 提供強大的工具，可為各種系統類型交叉編譯軟體。"
 
 #: ../../../tutorials/cross-compilation.md:15
 msgid "What do you need?"
@@ -49,7 +49,7 @@ msgstr ""
 
 #: ../../../tutorials/cross-compilation.md:21
 msgid "Platforms"
-msgstr ""
+msgstr "平臺"
 
 #: ../../../tutorials/cross-compilation.md:23
 msgid ""
@@ -184,7 +184,7 @@ msgstr ""
 
 #: ../../../tutorials/cross-compilation.md:82
 msgid "Choosing the host platform with Nix"
-msgstr ""
+msgstr "使用 Nix 選擇主機平臺"
 
 #: ../../../tutorials/cross-compilation.md:84
 msgid ""
@@ -204,7 +204,7 @@ msgstr ""
 
 #: ../../../tutorials/cross-compilation.md:90
 msgid "$ nix repl -f '<nixpkgs>' -I nixpkgs=channel:nixos-23.11\n"
-msgstr ""
+msgstr "$ nix repl -f '<nixpkgs>' -I nixpkgs=channel:nixos-23.11\n"
 
 #: ../../../tutorials/cross-compilation.md:95
 msgid ""
@@ -243,6 +243,40 @@ msgid ""
 "pkgsCross.mmix                        pkgsCross.x86_64-unknown-redox\n"
 "pkgsCross.msp430\n"
 msgstr ""
+"$ nix repl '<nixpkgs>' -I nixpkgs=channel:nixos-23.11\n"
+"Welcome to Nix 2.18.1. Type :? for help.\n"
+"\n"
+"Loading '<nixpkgs>'...\n"
+"Added 14200 variables.\n"
+"\n"
+"nix-repl> pkgsCross.<TAB>\n"
+"pkgsCross.aarch64-android             pkgsCross.musl-power\n"
+"pkgsCross.aarch64-android-prebuilt    pkgsCross.musl32\n"
+"pkgsCross.aarch64-darwin              pkgsCross.musl64\n"
+"pkgsCross.aarch64-embedded            pkgsCross.muslpi\n"
+"pkgsCross.aarch64-multiplatform       pkgsCross.or1k\n"
+"pkgsCross.aarch64-multiplatform-musl  pkgsCross.pogoplug4\n"
+"pkgsCross.aarch64be-embedded          pkgsCross.powernv\n"
+"pkgsCross.amd64-netbsd                pkgsCross.ppc-embedded\n"
+"pkgsCross.arm-embedded                pkgsCross.ppc64\n"
+"pkgsCross.armhf-embedded              pkgsCross.ppc64-musl\n"
+"pkgsCross.armv7a-android-prebuilt     pkgsCross.ppcle-embedded\n"
+"pkgsCross.armv7l-hf-multiplatform     pkgsCross.raspberryPi\n"
+"pkgsCross.avr                         pkgsCross.remarkable1\n"
+"pkgsCross.ben-nanonote                pkgsCross.remarkable2\n"
+"pkgsCross.fuloongminipc               pkgsCross.riscv32\n"
+"pkgsCross.ghcjs                       pkgsCross.riscv32-embedded\n"
+"pkgsCross.gnu32                       pkgsCross.riscv64\n"
+"pkgsCross.gnu64                       pkgsCross.riscv64-embedded\n"
+"pkgsCross.i686-embedded               pkgsCross.scaleway-c1\n"
+"pkgsCross.iphone32                    pkgsCross.sheevaplug\n"
+"pkgsCross.iphone32-simulator          pkgsCross.vc4\n"
+"pkgsCross.iphone64                    pkgsCross.wasi32\n"
+"pkgsCross.iphone64-simulator          pkgsCross.x86_64-embedded\n"
+"pkgsCross.mingw32                     pkgsCross.x86_64-netbsd\n"
+"pkgsCross.mingwW64                    pkgsCross.x86_64-netbsd-llvm\n"
+"pkgsCross.mmix                        pkgsCross.x86_64-unknown-redox\n"
+"pkgsCross.msp430\n"
 
 #: ../../../tutorials/cross-compilation.md:132
 msgid ""
@@ -360,6 +394,9 @@ msgid ""
 "  --arg crossSystem '{ config = \"aarch64-unknown-linux-gnu\"; }' \\\n"
 "  -A hello\n"
 msgstr ""
+"$ nix-build '<nixpkgs>' -I nixpkgs=channel:nixos-23.11 \\\n"
+"  --arg crossSystem '{ config = \"aarch64-unknown-linux-gnu\"; }' \\\n"
+"  -A hello\n"
 
 #: ../../../tutorials/cross-compilation.md:188
 msgid "Cross compiling for the first time"
@@ -380,6 +417,11 @@ msgid ""
 "/nix/store/1dx87l5rav8679lqigf9xxkb7wvh2m4k-hello-aarch64-unknown-linux-"
 "gnu-2.12.1\n"
 msgstr ""
+"$ nix-build '<nixpkgs>' -I nixpkgs=channel:nixos-23.11 \\\n"
+"  -A pkgsCross.aarch64-multiplatform.hello\n"
+"...\n"
+"/nix/store/1dx87l5rav8679lqigf9xxkb7wvh2m4k-hello-aarch64-unknown-linux-"
+"gnu-2.12.1\n"
 
 #: ../../../tutorials/cross-compilation.md:200
 msgid ""
@@ -467,6 +509,9 @@ msgid ""
 "Hello, world!\n"
 "Hello, world!\n"
 msgstr ""
+"$ cat $(nix-build cross-compile.nix)\n"
+"Hello, world!\n"
+"Hello, world!\n"
 
 #: ../../../tutorials/cross-compilation.md:259
 msgid "Developer environment with a cross compiler"
@@ -528,7 +573,7 @@ msgstr ""
 
 #: ../../../tutorials/cross-compilation.md:296
 msgid "$ nix-shell --run '$CC hello.c -o hello' shell.nix\n"
-msgstr ""
+msgstr "$ nix-shell --run '$CC hello.c -o hello' shell.nix\n"
 
 #: ../../../tutorials/cross-compilation.md:300
 msgid "And confirm it's aarch64:"

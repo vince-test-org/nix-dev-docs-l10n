@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../contributing/documentation/index.md:1
 msgid "Contributing documentation"
-msgstr ""
+msgstr "貢獻文件"
 
 #: ../../../contributing/documentation/index.md:3
 msgid ""
@@ -65,7 +65,7 @@ msgstr ""
 
 #: ../../../contributing/documentation/index.md:22
 msgid "Nix beginners"
-msgstr ""
+msgstr "Nix 初學者"
 
 #: ../../../contributing/documentation/index.md:24
 msgid ""
@@ -87,7 +87,7 @@ msgstr ""
 
 #: ../../../contributing/documentation/index.md:31
 msgid "Nix educators"
-msgstr ""
+msgstr "Nix 教育者"
 
 #: ../../../contributing/documentation/index.md:33
 msgid ""
@@ -105,7 +105,7 @@ msgstr ""
 
 #: ../../../contributing/documentation/index.md:38
 msgid "Domain experts using Nix"
-msgstr ""
+msgstr "使用 Nix 的領域專家"
 
 #: ../../../contributing/documentation/index.md:40
 msgid ""
@@ -131,7 +131,7 @@ msgstr ""
 
 #: ../../../contributing/documentation/index.md:46
 msgid "Licensing and attribution"
-msgstr ""
+msgstr "授權與姓名標示"
 
 #: ../../../contributing/documentation/index.md:48
 msgid ""

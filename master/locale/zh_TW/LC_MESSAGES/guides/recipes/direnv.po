@@ -55,6 +55,17 @@ msgid ""
 "  ];\n"
 "}\n"
 msgstr ""
+"let\n"
+"  nixpkgs = fetchTarball \"https://github.com/NixOS/nixpkgs/tarball/"
+"nixos-23.11\";\n"
+"  pkgs = import nixpkgs { config = {}; overlays = []; };\n"
+"in\n"
+"\n"
+"pkgs.mkShellNoCC {\n"
+"  packages = with pkgs; [\n"
+"    hello\n"
+"  ];\n"
+"}\n"
 
 #: ../../../guides/recipes/direnv.md:24
 msgid "From the top-level directory of your project, run:"
@@ -62,7 +73,7 @@ msgstr ""
 
 #: ../../../guides/recipes/direnv.md:26
 msgid "$ echo \"use nix\" > .envrc && direnv allow\n"
-msgstr ""
+msgstr "$ echo \"use nix\" > .envrc && direnv allow\n"
 
 #: ../../../guides/recipes/direnv.md:30
 msgid ""

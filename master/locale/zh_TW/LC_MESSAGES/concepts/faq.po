@@ -23,7 +23,7 @@ msgstr "常見問題集"
 
 #: ../../../concepts/faq.md:3
 msgid "What is the origin of the name Nix?"
-msgstr ""
+msgstr "Nix 這個名字的由來是什麼？"
 
 #: ../../../concepts/faq.md:5
 msgid ""
@@ -189,7 +189,7 @@ msgstr ""
 
 #: ../../../concepts/faq.md:66
 msgid "System's current time/date."
-msgstr ""
+msgstr "系統的當前時間/日期。"
 
 #: ../../../concepts/faq.md:67
 msgid ""
@@ -199,7 +199,7 @@ msgstr ""
 
 #: ../../../concepts/faq.md:68
 msgid "Linux kernel parameters, such as:"
-msgstr ""
+msgstr "Linux 內核參數，例如："
 
 #: ../../../concepts/faq.md:69
 msgid "[IPv6 capabilities](https://github.com/NixOS/nix/issues/5615)."

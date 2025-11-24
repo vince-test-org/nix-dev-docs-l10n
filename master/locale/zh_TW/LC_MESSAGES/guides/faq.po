@@ -23,7 +23,7 @@ msgstr "常見問題集"
 
 #: ../../../guides/faq.md:3
 msgid "Nix"
-msgstr ""
+msgstr "Nix"
 
 #: ../../../guides/faq.md:5
 msgid "How to format Nix language code automatically?"
@@ -60,7 +60,7 @@ msgstr ""
 
 #: ../../../guides/faq.md:18
 msgid "$ nix-shell -p nixpkgs-review --run \"nixpkgs-review wip\"\n"
-msgstr ""
+msgstr "$ nix-shell -p nixpkgs-review --run \"nixpkgs-review wip\"\n"
 
 #: ../../../guides/faq.md:22
 msgid "How can I manage dotfiles in \\$HOME with Nix?"
@@ -128,7 +128,7 @@ msgstr ""
 
 #: ../../../guides/faq.md:49
 msgid "Build from source."
-msgstr ""
+msgstr "從來源碼建置。"
 
 #: ../../../guides/faq.md:51
 msgid ""
@@ -196,7 +196,7 @@ msgstr ""
 
 #: ../../../guides/faq.md:80
 msgid "$ nix-shell -p steam-run --run \"steam-run <command>\"\n"
-msgstr ""
+msgstr "$ nix-shell -p steam-run --run \"steam-run <command>\"\n"
 
 #: ../../../guides/faq.md:84
 msgid "How to build my own ISO?"

@@ -45,7 +45,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/installing-nixos-on-a-raspberry-pi.md:17
 msgid "8GB+ SD card."
-msgstr ""
+msgstr "8GB+ SD 卡。"
 
 #: ../../../tutorials/nixos/installing-nixos-on-a-raspberry-pi.md:18
 msgid "SD card reader (in case your machine doesn't have an SD slot)."
@@ -57,7 +57,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/installing-nixos-on-a-raspberry-pi.md:20
 msgid "USB keyboard."
-msgstr ""
+msgstr "USB 鍵盤。"
 
 #: ../../../tutorials/nixos/installing-nixos-on-a-raspberry-pi.md:23
 msgid ""
@@ -197,7 +197,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/installing-nixos-on-a-raspberry-pi.md:85
 msgid "Updating firmware"
-msgstr ""
+msgstr "更新韌體"
 
 #: ../../../tutorials/nixos/installing-nixos-on-a-raspberry-pi.md:87
 msgid ""
@@ -214,7 +214,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/installing-nixos-on-a-raspberry-pi.md:95
 msgid "Installing and configuring NixOS"
-msgstr ""
+msgstr "安裝並組態 NixOS"
 
 #: ../../../tutorials/nixos/installing-nixos-on-a-raspberry-pi.md:97
 msgid ""

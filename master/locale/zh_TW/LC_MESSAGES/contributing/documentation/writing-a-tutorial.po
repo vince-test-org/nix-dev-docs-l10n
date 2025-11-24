@@ -280,7 +280,7 @@ msgstr ""
 
 #: ../../../contributing/documentation/writing-a-tutorial.md:110
 msgid "reference manuals"
-msgstr ""
+msgstr "參考手冊"
 
 #: ../../../contributing/documentation/writing-a-tutorial.md:111
 msgid "guides or other tutorials"

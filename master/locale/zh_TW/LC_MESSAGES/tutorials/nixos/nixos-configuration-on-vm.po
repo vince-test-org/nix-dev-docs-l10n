@@ -64,7 +64,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/nixos-configuration-on-vm.md:19
 msgid "Basic knowledge of the [Nix language](reading-nix-language)"
-msgstr ""
+msgstr "[Nix 語言](reading-nix-language)的基礎知識"
 
 #: ../../../tutorials/nixos/nixos-configuration-on-vm.md:22
 msgid ""

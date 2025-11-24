@@ -89,7 +89,7 @@ msgstr ""
 
 #: ../../../tutorials/module-system/index.md:24
 msgid "How long will it take?"
-msgstr ""
+msgstr "這會花多久的時間？"
 
 #: ../../../tutorials/module-system/index.md:26
 msgid "This is a very long tutorial. Prepare for at least 3 hours of work."

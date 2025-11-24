@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/index.md:3
 msgid "Learn how to configure, test, and install or deploy NixOS."
-msgstr ""
+msgstr "學習如何組態、測試，以及安裝或部署 NixOS。"
 
 #: ../../../tutorials/nixos/index.md:5
 msgid "Creating NixOS images"

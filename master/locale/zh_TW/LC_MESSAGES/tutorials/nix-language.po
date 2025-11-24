@@ -153,7 +153,7 @@ msgstr ""
 
 #: ../../../tutorials/nix-language.md:56
 msgid "Declaring and calling [functions](functions)"
-msgstr ""
+msgstr "宣告並呼叫[函數](functions)"
 
 #: ../../../tutorials/nix-language.md:57
 msgid "[Built-in and library functions](libraries)"

@@ -228,11 +228,11 @@ msgstr ""
 
 #: ../../../concepts/flakes.md:74
 msgid "Should I use flakes in my project?"
-msgstr ""
+msgstr "我應該在我的專案中使用 flake 嗎？"
 
 #: ../../../concepts/flakes.md:76
 msgid "You have to judge for yourself based on your needs."
-msgstr ""
+msgstr "您必須根據自己的需求來判斷。"
 
 #: ../../../concepts/flakes.md:78
 msgid ""

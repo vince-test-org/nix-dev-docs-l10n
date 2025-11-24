@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../../tutorials/first-steps/index.md:10
 msgid "Declarative shell environments"
-msgstr ""
+msgstr "宣告式外殼環境"
 
 #: ../../../tutorials/first-steps/index.md:3
 msgid "First steps"
-msgstr ""
+msgstr "第一步"
 
 #: ../../../tutorials/first-steps/index.md:5
 msgid "This tutorial series is where you should start learning Nix."

@@ -133,7 +133,7 @@ msgstr ""
 
 #: ../../../install-nix.md:87
 msgid "Verify installation"
-msgstr ""
+msgstr "驗證安裝"
 
 #: ../../../install-nix.md:89
 msgid "Check the installation by opening **a new terminal** and typing:"
@@ -144,3 +144,5 @@ msgid ""
 "$ nix --version\n"
 "nix (Nix) 2.11.0\n"
 msgstr ""
+"$ nix --version\n"
+"nix (Nix) 2.11.0\n"

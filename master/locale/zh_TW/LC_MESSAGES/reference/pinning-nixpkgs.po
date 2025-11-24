@@ -32,6 +32,8 @@ msgid ""
 "[`$NIX_PATH` environment variable](https://nix.dev/manual/nix/stable/command-"
 "ref/env-common.html#env-NIX_PATH)"
 msgstr ""
+"[`$NIX_PATH` 環境變數](https://nix.dev/manual/nix/stable/command-ref/env-"
+"common.html#env-NIX_PATH)"
 
 #: ../../../reference/pinning-nixpkgs.md:8
 msgid ""
@@ -99,7 +101,7 @@ msgstr ""
 
 #: ../../../reference/pinning-nixpkgs.md:41
 msgid "https://github.com/NixOS/nixpkgs/archive/nixos-22.11.tar.gz\n"
-msgstr ""
+msgstr "https://github.com/NixOS/nixpkgs/archive/nixos-22.11.tar.gz\n"
 
 #: ../../../reference/pinning-nixpkgs.md:45
 msgid "Using the latest commit on the release branch, but not tested yet:"
@@ -115,27 +117,31 @@ msgstr "範例"
 
 #: ../../../reference/pinning-nixpkgs.md:53
 msgid "$ nix-build -I ~/dev\n"
-msgstr ""
+msgstr "$ nix-build -I ~/dev\n"
 
 #: ../../../reference/pinning-nixpkgs.md:57
 msgid ""
 "$ nix-build -I nixpkgs=http://nixos.org/channels/nixos-22.11/nixexprs.tar."
 "xz\n"
 msgstr ""
+"$ nix-build -I nixpkgs=http://nixos.org/channels/nixos-22.11/nixexprs.tar."
+"xz\n"
 
 #: ../../../reference/pinning-nixpkgs.md:61
 msgid "$ nix-build -I nixpkgs=channel:nixos-22.11\n"
-msgstr ""
+msgstr "$ nix-build -I nixpkgs=channel:nixos-22.11\n"
 
 #: ../../../reference/pinning-nixpkgs.md:65
 msgid ""
 "$ NIX_PATH=nixpkgs=http://nixos.org/channels/nixos-22.11/nixexprs.tar.xz nix-"
 "build\n"
 msgstr ""
+"$ NIX_PATH=nixpkgs=http://nixos.org/channels/nixos-22.11/nixexprs.tar.xz nix-"
+"build\n"
 
 #: ../../../reference/pinning-nixpkgs.md:69
 msgid "$ NIX_PATH=nixpkgs=channel:nixos-22.11 nix-build\n"
-msgstr ""
+msgstr "$ NIX_PATH=nixpkgs=channel:nixos-22.11 nix-build\n"
 
 #: ../../../reference/pinning-nixpkgs.md:73
 msgid "In the Nix language:"
@@ -148,6 +154,10 @@ msgid ""
 "nixos-22.11.tar.gz\") {};\n"
 "in pkgs.stdenv.mkDerivation { ... }\n"
 msgstr ""
+"let\n"
+"  pkgs = import (fetchTarball \"https://github.com/NixOS/nixpkgs/archive/"
+"nixos-22.11.tar.gz\") {};\n"
+"in pkgs.stdenv.mkDerivation { ... }\n"
 
 #: ../../../reference/pinning-nixpkgs.md:81
 msgid "Finding specific commits and releases"
@@ -155,7 +165,7 @@ msgstr ""
 
 #: ../../../reference/pinning-nixpkgs.md:83
 msgid "[status.nixos.org](https://status.nixos.org/) provides:"
-msgstr ""
+msgstr "[status.nixos.org](https://status.nixos.org/) 提供："
 
 #: ../../../reference/pinning-nixpkgs.md:85
 msgid ""
