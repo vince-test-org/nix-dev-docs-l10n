@@ -525,7 +525,7 @@ msgstr ""
 
 #: ../../../tutorials/callpackage.md:266
 msgid "Summary"
-msgstr ""
+msgstr "摘要"
 
 #: ../../../tutorials/callpackage.md:268
 msgid ""

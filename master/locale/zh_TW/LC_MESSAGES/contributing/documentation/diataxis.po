@@ -53,7 +53,7 @@ msgstr ""
 
 #: ../../../contributing/documentation/diataxis.md:12
 msgid "Reference"
-msgstr "參考手冊"
+msgstr ""
 
 #: ../../../contributing/documentation/diataxis.md:14
 msgid "Reference material should"

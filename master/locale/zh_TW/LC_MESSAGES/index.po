@@ -70,7 +70,7 @@ msgstr ""
 
 #: ../../../index.md:37
 msgid "Reference"
-msgstr "參考手冊"
+msgstr ""
 
 #: ../../../index.md:42
 msgid "Collections of detailed technical descriptions"

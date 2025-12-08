@@ -35,7 +35,7 @@ msgstr "支援工具"
 
 #: ../../../reference/index.md:2
 msgid "Reference"
-msgstr "參考手冊"
+msgstr ""
 
 #: ../../../reference/index.md:4
 msgid "These sections contain collections of detailed technical descriptions."

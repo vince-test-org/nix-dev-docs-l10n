@@ -107,11 +107,11 @@ msgstr ""
 
 #: ../../../tutorials/nixos/distributed-builds-setup.md:41
 msgid "25 minutes"
-msgstr ""
+msgstr "25 分鐘"
 
 #: ../../../tutorials/nixos/distributed-builds-setup.md:43
 msgid "Create an SSH key pair"
-msgstr ""
+msgstr "建立 SSH 金鑰對"
 
 #: ../../../tutorials/nixos/distributed-builds-setup.md:45
 msgid ""

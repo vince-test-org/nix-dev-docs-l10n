@@ -37,7 +37,7 @@ msgstr ""
 
 #: ../../../guides/recipes/sharing-dependencies.md:8
 msgid "Summary"
-msgstr ""
+msgstr "摘要"
 
 #: ../../../guides/recipes/sharing-dependencies.md:10
 msgid ""

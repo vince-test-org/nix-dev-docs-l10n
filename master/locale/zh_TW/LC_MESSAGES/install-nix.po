@@ -87,7 +87,7 @@ msgstr ""
 
 #: ../../../install-nix.md:46
 msgid "$ curl -L https://nixos.org/nix/install | sh -s -- --no-daemon\n"
-msgstr ""
+msgstr "$ curl -L https://nixos.org/nix/install | sh -s -- --no-daemon\n"
 
 #: ../../../install-nix.md:50
 msgid ""
@@ -97,7 +97,7 @@ msgstr ""
 
 #: ../../../install-nix.md:0
 msgid "Docker"
-msgstr ""
+msgstr "Docker"
 
 #: ../../../install-nix.md:62
 msgid "Start a Docker shell with Nix:"
@@ -105,7 +105,7 @@ msgstr ""
 
 #: ../../../install-nix.md:64
 msgid "$ docker run -it nixos/nix\n"
-msgstr ""
+msgstr "$ docker run -it nixos/nix\n"
 
 #: ../../../install-nix.md:68
 msgid "Or start a Docker shell with Nix exposing a `workdir` directory:"
