@@ -243,6 +243,13 @@ msgid ""
 "  echo \"Hello, ${audience}!\"\n"
 "''"
 msgstr ""
+"{\n"
+"  writeShellScriptBin,\n"
+"  audience ? \"world\",\n"
+"}:\n"
+"writeShellScriptBin \"hello\" ''\n"
+"  echo \"Hello, ${audience}!\"\n"
+"''"
 
 #: ../../../tutorials/callpackage.md:122
 msgid "This also does not change the result."

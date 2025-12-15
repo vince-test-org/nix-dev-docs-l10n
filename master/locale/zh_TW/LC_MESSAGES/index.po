@@ -110,7 +110,7 @@ msgstr "輕鬆在電腦之間轉移軟體環境。"
 msgid ""
 "{ref}`Declarative specification of Linux machines <deploy-nixos-using-"
 "terraform>`."
-msgstr ""
+msgstr "{ref}`Linux 機器的宣告式規範 <deploy-nixos-using-terraform>`。"
 
 #: ../../../index.md:61
 msgid ""
@@ -132,7 +132,7 @@ msgstr ""
 
 #: ../../../index.md:65
 msgid "Strong support for software auditability."
-msgstr ""
+msgstr "強大的可稽核性支援。"
 
 #: ../../../index.md:66
 msgid "{ref}`First-class cross compilation support <cross-compilation>`."

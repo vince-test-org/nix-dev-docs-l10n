@@ -294,6 +294,11 @@ msgid ""
 "nix-repl> 1 + 2\n"
 "3\n"
 msgstr ""
+"$ nix repl\n"
+"Welcome to Nix 2.13.3. Type :? for help.\n"
+"\n"
+"nix-repl> 1 + 2\n"
+"3\n"
 
 #: ../../../tutorials/nix-language.md:124
 msgid ""
@@ -392,6 +397,9 @@ msgid ""
 "$ nix-instantiate --eval file.nix\n"
 "3\n"
 msgstr ""
+"$ echo 1 + 2 > file.nix\n"
+"$ nix-instantiate --eval file.nix\n"
+"3\n"
 
 #: ../../../tutorials/nix-language.md:0
 msgid "Detailed explanation"
