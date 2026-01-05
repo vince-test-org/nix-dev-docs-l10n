@@ -42,7 +42,7 @@ msgstr ""
 
 #: ../../../install-nix.md:14 ../../../install-nix.md:52
 msgid "$ curl -L https://nixos.org/nix/install | sh -s -- --daemon\n"
-msgstr ""
+msgstr "$ curl -L https://nixos.org/nix/install | sh -s -- --daemon\n"
 
 #: ../../../install-nix.md:18
 msgid ""
@@ -56,11 +56,11 @@ msgstr "macOS"
 
 #: ../../../install-nix.md:26
 msgid "$ curl -L https://nixos.org/nix/install | sh\n"
-msgstr ""
+msgstr "$ curl -L https://nixos.org/nix/install | sh\n"
 
 #: ../../../install-nix.md:31
 msgid "**Updating to macOS 15 Sequoia**"
-msgstr ""
+msgstr "**更新至 macOS 15 Sequoia**"
 
 #: ../../../install-nix.md:33
 msgid "If you recently updated to macOS 15 Sequoia and are getting the error"
@@ -116,6 +116,8 @@ msgid ""
 "$ mkdir workdir\n"
 "$ docker run -it -v $(pwd)/workdir:/workdir nixos/nix\n"
 msgstr ""
+"$ mkdir workdir\n"
+"$ docker run -it -v $(pwd)/workdir:/workdir nixos/nix\n"
 
 #: ../../../install-nix.md:75
 msgid ""

@@ -54,7 +54,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/deploying-nixos-using-terraform.md:19
 msgid "$ nix-shell -p terraform\n"
-msgstr ""
+msgstr "$ nix-shell -p terraform\n"
 
 #: ../../../tutorials/nixos/deploying-nixos-using-terraform.md:23
 msgid ""
@@ -64,7 +64,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/deploying-nixos-using-terraform.md:25
 msgid "$ terraform login\n"
-msgstr ""
+msgstr "$ terraform login\n"
 
 #: ../../../tutorials/nixos/deploying-nixos-using-terraform.md:29
 msgid ""

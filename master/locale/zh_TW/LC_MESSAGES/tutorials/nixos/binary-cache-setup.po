@@ -53,7 +53,7 @@ msgstr "您將會學到什麼？"
 
 #: ../../../tutorials/nixos/binary-cache-setup.md:20
 msgid "You'll learn how to:"
-msgstr ""
+msgstr "您將會學到如何："
 
 #: ../../../tutorials/nixos/binary-cache-setup.md:21
 msgid "Set up signing keys for your cache"
@@ -199,6 +199,15 @@ msgid ""
 "  # ...\n"
 "}"
 msgstr ""
+"{ config, ... }:\n"
+"\n"
+"{\n"
+"  imports = [\n"
+"    ./binary-cache.nix\n"
+"  ];\n"
+"\n"
+"  # ...\n"
+"}"
 
 #: ../../../tutorials/nixos/binary-cache-setup.md:103
 msgid "From your local machine, deploy the new configuration:"
@@ -206,7 +215,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/binary-cache-setup.md:105
 msgid "nixos-rebuild switch --no-flake --target-host root@cache\n"
-msgstr ""
+msgstr "nixos-rebuild switch --no-flake --target-host root@cache\n"
 
 #: ../../../tutorials/nixos/binary-cache-setup.md:110
 msgid ""
@@ -241,6 +250,8 @@ msgid ""
 "nix-store --generate-binary-cache-key cache.example.com cache-private-key."
 "pem cache-public-key.pem\n"
 msgstr ""
+"nix-store --generate-binary-cache-key cache.example.com cache-private-key."
+"pem cache-public-key.pem\n"
 
 #: ../../../tutorials/nixos/binary-cache-setup.md:125
 msgid ""
