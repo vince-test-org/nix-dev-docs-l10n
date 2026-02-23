@@ -578,6 +578,3 @@ msgid ""
 "terminating computations. The `outputs` field's function parameter must be "
 "specified: it does not support [eta-reduction]."
 msgstr ""
-
-#~ msgid "You have to judge for yourself based on your needs."
-#~ msgstr "您必須根據自己的需求來判斷。"

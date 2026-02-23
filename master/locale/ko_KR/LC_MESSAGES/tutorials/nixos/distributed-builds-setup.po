@@ -313,7 +313,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/distributed-builds-setup.md:0
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #: ../../../tutorials/nixos/distributed-builds-setup.md:155
 msgid "On Linux with `systemd`, run as `root`:"
@@ -325,7 +325,7 @@ msgstr ""
 
 #: ../../../tutorials/nixos/distributed-builds-setup.md:0
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 #: ../../../tutorials/nixos/distributed-builds-setup.md:163
 msgid "On macOS, run as `root`:"

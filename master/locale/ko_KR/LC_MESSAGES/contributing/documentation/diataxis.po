@@ -117,7 +117,7 @@ msgstr ""
 
 #: ../../../contributing/documentation/diataxis.md:35
 msgid "Concepts"
-msgstr ""
+msgstr "개념"
 
 #: ../../../contributing/documentation/diataxis.md:37
 msgid ""
