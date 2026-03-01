@@ -23,8 +23,7 @@ on:
 
 jobs:
   precondition:
-    if: ${{ ( github.repository == 'localizethedocs/nix-dev-docs-l10n' ) &&
-            ( ( github.event_name == 'repository_dispatch' &&
+    if: ${{ ( ( github.event_name == 'repository_dispatch' &&
                 github.event.action == 'pr-merged-to-l10n' &&
                 github.event.client_payload.OFFLINE == 'true' ) ||
               ( github.event_name == 'workflow_dispatch' ) ) }}
@@ -101,8 +100,7 @@ jobs:
 
   upload:
     needs: [ 'precondition' ]
-    if: ${{ ( github.repository == 'localizethedocs/nix-dev-docs-l10n' ) &&
-            ( ( github.event_name == 'repository_dispatch' &&
+    if: ${{ ( ( github.event_name == 'repository_dispatch' &&
                 github.event.action == 'pr-merged-to-l10n' &&
                 github.event.client_payload.OFFLINE == 'true' ) ||
               ( github.event_name == 'workflow_dispatch' ) ) }}
