@@ -1,0 +1,232 @@
+# Distributed under the OSI-approved BSD 3-Clause License.
+# See accompanying file LICENSE-BSD for details.
+
+name: ci-offline-upload-po
+
+on:
+  # Triggers the workflow when a pull request with 'offline' label is merged to the 'l10n' branch.
+  repository_dispatch:
+    types:
+      - pr-merged-to-l10n
+  # Triggers the workflow manually through the GitHub UI.
+  workflow_dispatch:
+    inputs:
+      VERSION:
+        description: 'VERSION input'
+        required: true
+        type: string
+        default: 'master'
+      LANGUAGE:
+        description: 'LANGUAGE input (e.g., ko_KR, or leave empty for all)'
+        required: false
+        type: string
+
+jobs:
+  precondition:
+    if: ${{ ( github.repository == 'localizethedocs/nix-dev-docs-l10n' ) &&
+            ( ( github.event_name == 'repository_dispatch' &&
+                github.event.action == 'pr-merged-to-l10n' &&
+                github.event.client_payload.OFFLINE == 'true' ) ||
+              ( github.event_name == 'workflow_dispatch' ) ) }}
+    runs-on: ${{ vars.RUNNER }}
+    steps:
+      - name: Print Contexts/Inputs
+        shell: bash
+        run: |
+          echo "[Contexts]"
+          echo "github.job = ${{ github.job }}"
+          echo "github.ref = ${{ github.ref }}"
+          echo "github.ref_name = ${{ github.ref_name }}"
+          echo "github.event_name = ${{ github.event_name }}"
+          echo "github.event.action = ${{ github.event.action }}"
+          echo "github.event.client_payload.MODE = ${{ github.event.client_payload.MODE }}"
+          echo "github.event.client_payload.VERSION = ${{ github.event.client_payload.VERSION }}"
+          echo "github.event.client_payload.LANGUAGE = ${{ github.event.client_payload.LANGUAGE }}"
+          echo "github.event.client_payload.OFFLINE = ${{ github.event.client_payload.OFFLINE }}"
+          echo "[Inputs]"
+          echo "inputs.VERSION = ${{ inputs.VERSION }}"
+          echo "inputs.LANGUAGE = ${{ inputs.LANGUAGE }}"
+          echo "[Variables]"
+          echo "vars.RUNNER = ${{ vars.RUNNER }}"
+          echo "vars.ACTOR_NAME = ${{ vars.ACTOR_NAME }}"
+          echo "vars.ACTOR_EMAIL = ${{ vars.ACTOR_EMAIL }}"
+          echo "vars.CROWDIN_PROJECT_ID = ${{ vars.CROWDIN_PROJECT_ID }}"
+          echo "vars.CROWDIN_BASE_URL = ${{ vars.CROWDIN_BASE_URL }}"
+          echo "[Secrets]"
+          echo "secrets.CROWDIN_PERSONAL_TOKEN = ${{ secrets.CROWDIN_PERSONAL_TOKEN }}"
+      - name: Check Required Variables
+        shell: bash
+        run: |
+          REQUIRED_VARIABLES_EXIST=true
+          if [[ -z "${{ vars.RUNNER }}" ]]; then
+            echo "vars.RUNNER is missing."
+            REQUIRED_VARIABLES_EXIST=false
+          fi
+          if [[ -z "${{ vars.ACTOR_NAME }}" ]]; then
+            echo "vars.ACTOR_NAME is missing."
+            REQUIRED_VARIABLES_EXIST=false
+          fi
+          if [[ -z "${{ vars.ACTOR_EMAIL }}" ]]; then
+            echo "vars.ACTOR_EMAIL is missing."
+            REQUIRED_VARIABLES_EXIST=false
+          fi
+          if [[ -z "${{ vars.CROWDIN_PROJECT_ID }}" ]]; then
+            echo "vars.CROWDIN_PROJECT_ID is missing."
+            REQUIRED_VARIABLES_EXIST=false
+          fi
+          if [[ -z "${{ vars.CROWDIN_BASE_URL }}" ]]; then
+            echo "vars.CROWDIN_BASE_URL is missing."
+            REQUIRED_VARIABLES_EXIST=false
+          fi
+          if [[ "${REQUIRED_VARIABLES_EXIST}" == "false" ]]; then
+            echo "Error: Some variables are missing." >&2
+            exit 1
+          fi
+      - name: Check Required Secrets
+        shell: bash
+        run: |
+          REQUIRED_SECRETS_EXIST=true
+          if [[ -z "${{ secrets.ACTOR_GITHUB_TOKEN }}" ]]; then
+            echo "secrets.ACTOR_GITHUB_TOKEN is missing."
+            REQUIRED_SECRETS_EXIST=false
+          fi
+          if [[ -z "${{ secrets.CROWDIN_PERSONAL_TOKEN }}" ]]; then
+            echo "secrets.CROWDIN_PERSONAL_TOKEN is missing."
+            REQUIRED_SECRETS_EXIST=false
+          fi
+          if [[ "${REQUIRED_SECRETS_EXIST}" == "false" ]]; then
+            echo "Error: Some secrets are missing." >&2
+            exit 1
+          fi
+
+  upload:
+    needs: [ 'precondition' ]
+    if: ${{ ( github.repository == 'localizethedocs/nix-dev-docs-l10n' ) &&
+            ( ( github.event_name == 'repository_dispatch' &&
+                github.event.action == 'pr-merged-to-l10n' &&
+                github.event.client_payload.OFFLINE == 'true' ) ||
+              ( github.event_name == 'workflow_dispatch' ) ) }}
+    runs-on: ${{ vars.RUNNER }}
+    env:
+      CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_PROJECT_ID }}
+      CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+      CROWDIN_BASE_URL: ${{ vars.CROWDIN_BASE_URL }}
+    steps:
+      - name: Checkout l10n branch
+        uses: actions/checkout@v4
+        with:
+          ref: l10n
+          token: ${{ secrets.ACTOR_GITHUB_TOKEN }}
+
+      - name: Get languages.json from main branch
+        shell: bash
+        run: |
+          git fetch origin main --depth=1
+          git show origin/main:languages.json > languages.json
+
+      - name: Install Crowdin CLI
+        shell: bash
+        run: npm install -g @crowdin/cli
+
+      - name: Set VERSION
+        id: set-version
+        shell: bash
+        run: |
+          VERSION="${{ inputs.VERSION || github.event.client_payload.VERSION }}"
+          echo "VERSION=${VERSION}" >> "${GITHUB_OUTPUT}"
+
+      - name: Detect offline translations
+        id: detect
+        shell: bash
+        run: |
+          VERSION="${{ steps.set-version.outputs.VERSION }}"
+          OFFLINE_DIR="${VERSION}/.offline"
+          if [[ ! -d "${OFFLINE_DIR}" ]]; then
+            echo "No offline translations found in ${OFFLINE_DIR}"
+            echo "FOUND=false" >> "${GITHUB_OUTPUT}"
+            exit 0
+          fi
+          # Find language directories
+          LANGUAGES=$(find "${OFFLINE_DIR}" -mindepth 1 -maxdepth 1 -type d -exec basename {} \; | tr '\n' ' ')
+          if [[ -z "${LANGUAGES}" ]]; then
+            echo "No language directories found in ${OFFLINE_DIR}"
+            echo "FOUND=false" >> "${GITHUB_OUTPUT}"
+            exit 0
+          fi
+          echo "FOUND=true" >> "${GITHUB_OUTPUT}"
+          echo "LANGUAGES=${LANGUAGES}" >> "${GITHUB_OUTPUT}"
+          echo "Found offline translations for: ${LANGUAGES}"
+
+      - name: Upload translations to Crowdin
+        if: ${{ steps.detect.outputs.FOUND == 'true' }}
+        shell: bash
+        run: |
+          VERSION="${{ steps.set-version.outputs.VERSION }}"
+          OFFLINE_DIR="${VERSION}/.offline"
+          CROWDIN_YML="${VERSION}/crowdin.yml"
+          INPUT_LANGUAGE="${{ inputs.LANGUAGE }}"
+
+          for lang_dir in "${OFFLINE_DIR}"/*/; do
+            LANGUAGE=$(basename "${lang_dir}")
+
+            # Skip if specific language requested and this isn't it
+            if [[ -n "${INPUT_LANGUAGE}" && "${LANGUAGE}" != "${INPUT_LANGUAGE}" ]]; then
+              echo "Skipping ${LANGUAGE} (filter: ${INPUT_LANGUAGE})"
+              continue
+            fi
+
+            # Read Crowdin language code from languages.json
+            CROWDIN_LANG=$(python3 -c "
+          import json, sys
+          with open('languages.json') as f:
+              data = json.load(f)
+          lang = '${LANGUAGE}'
+          if lang not in data:
+              print(f'Error: {lang} not found in languages.json', file=sys.stderr)
+              sys.exit(1)
+          print(data[lang]['crowdin'])")
+
+            echo "=== Uploading ${LANGUAGE} (Crowdin: ${CROWDIN_LANG}) translations for ${VERSION} ==="
+
+            # Copy .po files to .crowdin directory (matching crowdin.yml file mapping)
+            CROWDIN_PO_DIR="${VERSION}/.crowdin/${LANGUAGE}"
+            mkdir -p "${CROWDIN_PO_DIR}"
+            cp -r "${lang_dir}"* "${CROWDIN_PO_DIR}/"
+
+            echo ""
+            echo "From: ${lang_dir}"
+            echo "To:   ${CROWDIN_PO_DIR}/"
+            echo ""
+
+            # Upload to Crowdin
+            crowdin upload translations \
+              --language="${CROWDIN_LANG}" \
+              --branch="${VERSION}" \
+              --config="${CROWDIN_YML}" \
+              --no-auto-approve-imported \
+              --no-progress \
+              --verbose
+          done
+
+      - name: Clean up staging and crowdin directories
+        if: ${{ steps.detect.outputs.FOUND == 'true' }}
+        shell: bash
+        run: |
+          VERSION="${{ steps.set-version.outputs.VERSION }}"
+          rm -rf "${VERSION}/.offline"
+          rm -rf "${VERSION}/.crowdin"
+
+      - name: Commit and push cleanup
+        if: ${{ steps.detect.outputs.FOUND == 'true' }}
+        shell: bash
+        run: |
+          VERSION="${{ steps.set-version.outputs.VERSION }}"
+          git config user.name "${{ vars.ACTOR_NAME }}"
+          git config user.email "${{ vars.ACTOR_EMAIL }}"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "🌐 offline(${VERSION}): clean up staging directory"
+          git push
