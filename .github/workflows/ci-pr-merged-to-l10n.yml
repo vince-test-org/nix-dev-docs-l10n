@@ -66,7 +66,8 @@ jobs:
     if: ${{ ( ( github.event_name == 'pull_request' ) &&
               ( github.event.pull_request.merged == true ) &&
               ( contains(github.event.pull_request.labels.*.name, 'gettext') ||
-                contains(github.event.pull_request.labels.*.name, 'crowdin') ) ) }}
+                contains(github.event.pull_request.labels.*.name, 'crowdin') ||
+                contains(github.event.pull_request.labels.*.name, 'offline') ) ) }}
     runs-on: ${{ vars.RUNNER }}
     steps:
       - name: Get VERSION from the Pull Request Title
@@ -86,5 +87,6 @@ jobs:
               "VERSION" : "${{ steps.gvprt.outputs.VERSION }}",
               "LANGUAGE" : "all",
               "GETTEXT" : "${{ contains(github.event.pull_request.labels.*.name, 'gettext') }}",
-              "CROWDIN" : "${{ contains(github.event.pull_request.labels.*.name, 'crowdin') }}"
+              "CROWDIN" : "${{ contains(github.event.pull_request.labels.*.name, 'crowdin') }}",
+              "OFFLINE" : "${{ contains(github.event.pull_request.labels.*.name, 'offline') }}"
             }
